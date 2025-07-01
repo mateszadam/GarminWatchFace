@@ -1,0 +1,7 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
+    <bitmap id="bluetooth" filename="bluetooth.svg" dithering="none" />
+    <bitmap id="bluetoothOff" filename="bluetooth-off.svg" dithering="none" />
+    <bitmap id="notification" filename="chat-circle.svg" dithering="none"/>
+    <bitmap id="alarm" filename="alarm.svg" dithering="none"/>
+</drawables>

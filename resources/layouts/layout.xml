@@ -1,0 +1,89 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+
+    <bitmap id="sunIcon" filename="../drawables/sun-horizon.svg" x="170" y="33" /> 
+    <label id="sun"
+        x="205" y="30" color="Graphics.COLOR_WHITE" font="Graphics.FONT_XTINY" />
+ 
+  
+    <label text="deg"
+        id="deg" x="130" y="70" color="Graphics.COLOR_WHITE" font="Graphics.FONT_XTINY" />
+    <bitmap
+        id="degIcon" filename="../drawables/thermometer-simple.svg" x="105" y="74" />
+
+
+    <label
+        text="calories" id="calories" x="273" y="70" color="Graphics.COLOR_WHITE"
+        font="Graphics.FONT_XTINY" />
+    <bitmap id="caloriesIcon" filename="../drawables/gauge.svg"
+        x="236" y="73" />
+    
+    
+    <label text="day" id="day" x="center" y="105" color="Graphics.COLOR_WHITE"
+        justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    <!-- <label text="steps" id="steps" x="300" y="105" color="Graphics.COLOR_WHITE"
+    justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" /> -->
+    <label text="time"
+        id="time" x="center" y="110" color="Graphics.COLOR_WHITE"
+        justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_SYSTEM_NUMBER_THAI_HOT" />
+
+    <!-- https://phosphoricons.com/ -->
+    <bitmap
+        id="levelsIcon" filename="../drawables/steps.svg" x="60" y="270" />
+    <label text="levels"
+        id="levels" x="90" y="270" color="Graphics.COLOR_WHITE" font="Graphics.FONT_XTINY" />
+    
+    <bitmap
+        id="heartRateIcon" filename="../drawables/heart-straight.svg" x="150" y="270" />
+    <label
+        text="heartRate" id="heartRate" x="180" y="270" color="Graphics.COLOR_WHITE"
+        font="Graphics.FONT_XTINY" />
+    
+    <bitmap id="bodyPowerIcon"
+        filename="../drawables/person-simple-run.svg" x="240" y="270" /> 
+    <label text="bodyPower"
+        id="bodyPower" x="270" y="270" color="Graphics.COLOR_WHITE" font="Graphics.FONT_XTINY" />
+
+    <bitmap
+        id="bodyBattIcon" filename="../drawables/user-sound.svg" x="327" y="270" /> 
+    <label
+        text="bodyBatt" id="bodyBatt" x="360" y="270" color="Graphics.COLOR_WHITE"
+        font="Graphics.FONT_XTINY" />
+    
+
+    <bitmap id="calorieIcon" filename="../drawables/flame.svg"
+        x="90" y="333" /> 
+    <label text="calorie" id="calorie" x="120" y="330"
+        color="Graphics.COLOR_WHITE" font="Graphics.FONT_XTINY" />
+    
+    <bitmap id="stepsIcon"
+        filename="../drawables/footprints.svg" x="250" y="331" /> 
+    <label text="steps" id="steps"
+        x="282" y="330" color="Graphics.COLOR_WHITE" font="Graphics.FONT_XTINY" />
+    
+
+    <bitmap
+        id="sIcon" filename="../drawables/copyright.svg" x="190" y="395" /> 
+    <label text="Ádi"
+        id="sa" x="225" y="395" color="Graphics.COLOR_WHITE"
+        font="Graphics.FONT_XTINY" />
+
+
+
+    <bitmap
+        id="bluetoothIcon" filename="../drawables/bluetooth.svg" x="22" y="180" />
+    <bitmap
+        id="notificationIcon" filename="../drawables/chat-circle.svg" x="22" y="220" />
+    <bitmap
+        id="alarm" filename="../drawables/alarm.svg" x="400" y="180" />
+
+    
+
+
+
+
+    <drawable id="Lines"
+        class="Lines" />
+    <drawable id="Battery" class="Battery" />
+</layout>

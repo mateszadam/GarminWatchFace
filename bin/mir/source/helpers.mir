@@ -1,0 +1,1515 @@
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
+import Toybox.Time;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [ActivityMonitor,6,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Position,7,14,22]; ]
+import Toybox.Position;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Math,8,14,18]; ]
+import Toybox.Math;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Activity,9,14,22]; ]
+import Toybox.Activity;
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 11; @symbol_classdef = [CostumeHelpers,11,6,20]; @symbol_extends<0> = [WatchUi,11,29,36]; @symbol_extends<1> = [WatchFace,11,37,46]; ]
+class CostumeHelpers extends WatchUi.WatchFace {
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 11; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 12; @symbol_functiondef = [initialize,12,10,20]; ]
+    function initialize() as Void {
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_12_23_14_1_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 13 2 ]
+        symbol [ WatchFace %tmp.2 13 2 11 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 13 12 22 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_12_23_14_1_stop:
+    }
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 15; @symbol_functiondef = [getSunTimes,15,10,21]; ]
+    function getSunTimes() {
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 16 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop" ]
+        %value.1 = local;
+        symbol [ value %value.1 16 6 11 ];
+        %tmp.1 = "";
+        lputv %value.1 %tmp.1;
+        symbol [ value %value.1 16 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 19 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop" ]
+        %location.2 = local;
+        symbol [ location %location.2 19 6 14 ];
+        %tmp.2 = null;
+        lputv %location.2 %tmp.2;
+        symbol [ location %location.2 19 6 14 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 20 2 ]
+        try @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_beginTry @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_endTry @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_catch @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_finally;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_beginTry:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_6_35_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 21 3 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_3_26_3_if_stmt:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_7_21_45_begin:
+        symbol [ Toybox %tmp.4 21 7 13 ];
+        %tmp.4 = getv ? :Toybox;
+        %tmp.6 = const :Activity;
+        symbol [ Activity %tmp.6 21 19 27 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_3_26_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_31_21_45_true:
+        symbol [ Activity %tmp.8 21 31 39 ];
+        %tmp.8 = getm $.Toybox.Activity;
+        %tmp.10 = const :getActivityInfo;
+        symbol [ getActivityInfo %tmp.10 21 45 60 const ];
+        %tmp.11 = canhazplz %tmp.8 %tmp.10;
+        push %tmp.11;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_31_21_45_end:
+        %tmp.12 = phi [%tmp.7 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_7_21_45_begin] [%tmp.11 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_31_21_45_true] [%tmp.12 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_31_21_45_end];
+        bf %tmp.12 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_3_26_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_3_26_3_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_62_26_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 22 4 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_62_26_3_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_62_26_3_stop" ]
+        %info.3 = local;
+        symbol [ info %info.3 22 8 12 ];
+        symbol [ Activity %tmp.13 22 15 23 ];
+        %tmp.13 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.14 22 24 39 ];
+        %tmp.14 = getv function %tmp.13 :getActivityInfo;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %info.3 %tmp.15;
+        symbol [ info %info.3 22 8 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 23 4 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_4_25_4_if_stmt:
+        %tmp.16 = lgetv %info.3;
+        symbol [ info %tmp.16 23 8 12 ];
+        %tmp.17 = null;
+        %tmp.18 = ne %tmp.16 %tmp.17;
+        bf %tmp.18 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_4_25_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_4_25_4_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_22_25_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 24 5 ]
+        %tmp.19 = lgetv %info.3;
+        symbol [ info %tmp.19 24 16 20 ];
+        %tmp.20 = as %tmp.19 { (!Null) };
+        symbol [ currentLocation %tmp.21 24 21 36 ];
+        %tmp.21 = getv %tmp.20 :currentLocation;
+        lputv %location.2 %tmp.21;
+        symbol [ location %location.2 24 5 13 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_22_25_4_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_4_25_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_23_4_25_4_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_62_26_3_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_3_26_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_21_3_26_3_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 29 3 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_3_34_3_if_stmt:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_7_29_39_begin:
+        %tmp.22 = lgetv %location.2;
+        symbol [ location %tmp.22 29 7 15 ];
+        %tmp.23 = null;
+        %tmp.24 = eq %tmp.22 %tmp.23;
+        bf %tmp.24 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_3_34_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_27_29_39_true:
+        symbol [ Toybox %tmp.26 29 27 33 ];
+        %tmp.26 = getv ? :Toybox;
+        %tmp.28 = const :Position;
+        symbol [ Position %tmp.28 29 39 47 const ];
+        %tmp.29 = canhazplz %tmp.26 %tmp.28;
+        push %tmp.29;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_27_29_39_end:
+        %tmp.30 = phi [%tmp.24 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_7_29_39_begin] [%tmp.29 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_27_29_39_true] [%tmp.30 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_27_29_39_end];
+        bf %tmp.30 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_3_34_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_3_34_3_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_49_34_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 30 4 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_49_34_3_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_49_34_3_stop" ]
+        %posInfo.4 = local;
+        symbol [ posInfo %posInfo.4 30 8 15 ];
+        symbol [ Position %tmp.31 30 18 26 ];
+        %tmp.31 = getm $.Toybox.Position;
+        symbol [ getInfo %tmp.32 30 27 34 ];
+        %tmp.32 = getv function %tmp.31 :getInfo;
+        %tmp.33 = invoke %tmp.31 %tmp.32();
+        lputv %posInfo.4 %tmp.33;
+        symbol [ posInfo %posInfo.4 30 8 15 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 31 4 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_4_33_4_if_stmt:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_8_31_47_begin:
+        %tmp.34 = lgetv %posInfo.4;
+        symbol [ posInfo %tmp.34 31 8 15 ];
+        %tmp.35 = null;
+        %tmp.36 = ne %tmp.34 %tmp.35;
+        bf %tmp.36 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_4_33_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_27_31_47_true:
+        %tmp.37 = lgetv %posInfo.4;
+        symbol [ posInfo %tmp.37 31 27 34 ];
+        %tmp.38 = as %tmp.37 { (!Null) };
+        symbol [ position %tmp.39 31 35 43 ];
+        %tmp.39 = getv %tmp.38 :position;
+        %tmp.40 = null;
+        %tmp.41 = ne %tmp.39 %tmp.40;
+        push %tmp.41;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_27_31_47_end:
+        %tmp.42 = phi [%tmp.36 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_8_31_47_begin] [%tmp.41 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_27_31_47_true] [%tmp.42 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_27_31_47_end];
+        bf %tmp.42 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_4_33_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_4_33_4_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_53_33_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 32 5 ]
+        %tmp.43 = lgetv %posInfo.4;
+        symbol [ posInfo %tmp.43 32 16 23 ];
+        %tmp.44 = as %tmp.43 { (!Null) };
+        symbol [ position %tmp.45 32 24 32 ];
+        %tmp.45 = getv %tmp.44 :position;
+        lputv %location.2 %tmp.45;
+        symbol [ location %location.2 32 5 13 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_53_33_4_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_4_33_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_31_4_33_4_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_49_34_3_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_3_34_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_29_3_34_3_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_6_35_2_stop:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_endTry:
+        jsr @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_finally;
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_catch:
+        %tmp.46 = exception;
+        push %tmp.46;
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 35 4 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_catch" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_35_4_40_2_end" ]
+        %ex.5 = local;
+        symbol [ ex %ex.5 35 11 13 ];
+        %tmp.47 = dup %tmp.46;
+        lputv %ex.5 %tmp.47;
+        symbol [ ex %ex.5 35 11 13 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_35_15_40_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 39 3 ]
+        %tmp.48 = null;
+        lputv %location.2 %tmp.48;
+        symbol [ location %location.2 39 3 11 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_35_15_40_2_stop:
+        jsr @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_finally;
+        pop;
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_35_4_40_2_end:
+        try @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_catch @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_35_4_40_2_end @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_35_4_40_2_end @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_finally;
+        jsr @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_finally;
+        throw %tmp.46;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_finally:
+        jsrret;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_20_2_40_2_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 41 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop" ]
+        %gLocationLat.6 = local;
+        symbol [ gLocationLat %gLocationLat.6 41 6 18 ];
+        %tmp.49 = null;
+        lputv %gLocationLat.6 %tmp.49;
+        symbol [ gLocationLat %gLocationLat.6 41 6 18 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 42 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop" ]
+        %gLocationLng.7 = local;
+        symbol [ gLocationLng %gLocationLng.7 42 6 18 ];
+        %tmp.50 = null;
+        lputv %gLocationLng.7 %tmp.50;
+        symbol [ gLocationLng %gLocationLng.7 42 6 18 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 44 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_2_49_2_if_stmt:
+        %tmp.51 = lgetv %location.2;
+        symbol [ location %tmp.51 44 6 14 ];
+        %tmp.52 = null;
+        %tmp.53 = ne %tmp.51 %tmp.52;
+        bf %tmp.53 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_2_49_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_2_49_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_24_49_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 46 3 ]
+        %tmp.54 = lgetv %location.2;
+        symbol [ location %tmp.54 46 14 22 ];
+        %tmp.55 = as %tmp.54 { (!Null) };
+        symbol [ toDegrees %tmp.56 46 23 32 ];
+        %tmp.56 = getv function %tmp.55 :toDegrees;
+        %tmp.57 = invoke %tmp.55 %tmp.56();
+        lputv %location.2 %tmp.57;
+        symbol [ location %location.2 46 3 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 47 3 ]
+        %tmp.58 = lgetv %location.2;
+        symbol [ location %tmp.58 47 18 26 ];
+        %tmp.59 = 0;
+        %tmp.60 = agetv %tmp.58 %tmp.59;
+        symbol [ toFloat %tmp.61 47 30 37 ];
+        %tmp.61 = getv function %tmp.60 :toFloat;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        lputv %gLocationLat.6 %tmp.62;
+        symbol [ gLocationLat %gLocationLat.6 47 3 15 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 48 3 ]
+        %tmp.63 = lgetv %location.2;
+        symbol [ location %tmp.63 48 18 26 ];
+        %tmp.64 = 1;
+        %tmp.65 = agetv %tmp.63 %tmp.64;
+        symbol [ toFloat %tmp.66 48 30 37 ];
+        %tmp.66 = getv function %tmp.65 :toFloat;
+        %tmp.67 = invoke %tmp.65 %tmp.66();
+        lputv %gLocationLng.7 %tmp.67;
+        symbol [ gLocationLng %gLocationLng.7 48 3 15 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_24_49_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_2_49_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_44_2_49_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 50 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop" ]
+        %sunTimes.8 = local;
+        symbol [ sunTimes %sunTimes.8 50 6 14 ];
+        %tmp.68 = newa 2;
+        %tmp.69 = null;
+        %tmp.70 = dup %tmp.68;
+        %tmp.71 = aputv %tmp.70 0 %tmp.69;
+        %tmp.72 = null;
+        %tmp.73 = dup %tmp.71;
+        %tmp.74 = aputv %tmp.73 1 %tmp.72;
+        lputv %sunTimes.8 %tmp.74;
+        symbol [ sunTimes %sunTimes.8 50 6 14 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 51 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop" ]
+        %result.9 = local;
+        symbol [ result %result.9 51 6 12 ];
+        %tmp.75 = newd 0;
+        lputv %result.9 %tmp.75;
+        symbol [ result %result.9 51 6 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 52 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_2_118_2_if_stmt:
+        %tmp.76 = lgetv %gLocationLat.6;
+        symbol [ gLocationLat %tmp.76 52 6 18 ];
+        %tmp.77 = null;
+        %tmp.78 = ne %tmp.76 %tmp.77;
+        bf %tmp.78 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_2_118_2_if_else_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_2_118_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 53 3 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_stop" ]
+        %nextSunEvent.10 = local;
+        symbol [ nextSunEvent %nextSunEvent.10 53 7 19 ];
+        %tmp.79 = 0;
+        lputv %nextSunEvent.10 %tmp.79;
+        symbol [ nextSunEvent %nextSunEvent.10 53 7 19 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 54 3 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_stop" ]
+        %now.11 = local;
+        symbol [ now %now.11 54 7 10 ];
+        symbol [ Gregorian %tmp.81 54 13 22 ];
+        %tmp.81 = getv ? :Gregorian;
+        symbol [ info %tmp.82 54 23 27 ];
+        %tmp.82 = getv function %tmp.81 :info;
+        symbol [ Time %tmp.83 54 28 32 ];
+        %tmp.83 = getm $.Toybox.Time;
+        symbol [ now %tmp.84 54 33 36 ];
+        %tmp.84 = getv function %tmp.83 :now;
+        %tmp.85 = invoke %tmp.83 %tmp.84();
+        symbol [ Time %tmp.86 54 40 44 ];
+        %tmp.86 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.87 54 45 57 ];
+        %tmp.87 = getv %tmp.86 :FORMAT_SHORT;
+        %tmp.88 = invoke %tmp.81 %tmp.82(%tmp.85, %tmp.87);
+        lputv %now.11 %tmp.88;
+        symbol [ now %now.11 54 7 10 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 58 3 ]
+        %tmp.89 = lgetv %now.11;
+        symbol [ now %tmp.89 58 9 12 ];
+        symbol [ hour %tmp.90 58 13 17 ];
+        %tmp.90 = getv %tmp.89 :hour;
+        %tmp.91 = lgetv %now.11;
+        symbol [ now %tmp.91 58 21 24 ];
+        symbol [ min %tmp.92 58 25 28 ];
+        %tmp.92 = getv %tmp.91 :min;
+        %tmp.93 = 1;
+        %tmp.94 = add %tmp.92 %tmp.93;
+        %tmp.95 = 60.0;
+        %tmp.96 = div %tmp.94 %tmp.95;
+        %tmp.97 = add %tmp.90 %tmp.96;
+        lputv %now.11 %tmp.97;
+        symbol [ now %now.11 58 3 6 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 61 3 ]
+        %tmp.98 = self;
+        symbol [ getSunTimes2 %tmp.99 61 14 26 ];
+        %tmp.99 = getv function %tmp.98 :getSunTimes2;
+        %tmp.100 = lgetv %gLocationLat.6;
+        symbol [ gLocationLat %tmp.100 62 4 16 ];
+        %tmp.101 = as %tmp.100 { (!Null) };
+        %tmp.102 = lgetv %gLocationLng.7;
+        symbol [ gLocationLng %tmp.102 63 4 16 ];
+        %tmp.103 = null;
+        %tmp.104 = false;
+        %tmp.105 = invoke %tmp.98 %tmp.99(%tmp.101, %tmp.102, %tmp.103, %tmp.104);
+        lputv %sunTimes.8 %tmp.105;
+        symbol [ sunTimes %sunTimes.8 61 3 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 70 3 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_stop" ]
+        %sunriseSunsetToday.12 = local;
+        symbol [ sunriseSunsetToday %sunriseSunsetToday.12 70 7 25 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_28_70_66_begin:
+        %tmp.106 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.106 70 28 36 ];
+        %tmp.107 = 0;
+        %tmp.108 = agetv %tmp.106 %tmp.107;
+        %tmp.109 = null;
+        %tmp.110 = ne %tmp.108 %tmp.109;
+        %tmp.111 = dup %tmp.110;
+        bf %tmp.111 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_51_70_66_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_51_70_66_true:
+        %tmp.112 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.112 70 51 59 ];
+        %tmp.113 = 1;
+        %tmp.114 = agetv %tmp.112 %tmp.113;
+        %tmp.115 = null;
+        %tmp.116 = ne %tmp.114 %tmp.115;
+        %tmp.117 = and %tmp.110 %tmp.116;
+        push %tmp.117;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_51_70_66_end:
+        %tmp.118 = phi [%tmp.111 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_28_70_66_begin] [%tmp.117 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_51_70_66_true] [%tmp.118 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_70_51_70_66_end];
+        lputv %sunriseSunsetToday.12 %tmp.118;
+        symbol [ sunriseSunsetToday %sunriseSunsetToday.12 70 7 25 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 71 3 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_3_92_3_if_stmt:
+        %tmp.119 = lgetv %sunriseSunsetToday.12;
+        symbol [ sunriseSunsetToday %tmp.119 71 7 25 ];
+        bf %tmp.119 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_3_92_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_3_92_3_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_27_92_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 73 4 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_4_91_4_if_stmt:
+        %tmp.120 = lgetv %now.11;
+        symbol [ now %tmp.120 73 8 11 ];
+        %tmp.121 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.121 73 14 22 ];
+        %tmp.122 = 0;
+        %tmp.123 = agetv %tmp.121 %tmp.122;
+        %tmp.124 = lt %tmp.120 %tmp.123;
+        bf %tmp.124 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_4_91_4_if_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_4_91_4_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_27_78_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 74 5 ]
+        %tmp.125 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.125 74 20 28 ];
+        %tmp.126 = 0;
+        %tmp.127 = agetv %tmp.125 %tmp.126;
+        lputv %nextSunEvent.10 %tmp.127;
+        symbol [ nextSunEvent %nextSunEvent.10 74 5 17 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 75 5 ]
+        %tmp.128 = lgetv %result.9;
+        symbol [ result %tmp.128 75 5 11 ];
+        %tmp.129 = true;
+        %tmp.130 = "isSunriseNext";
+        aputv %tmp.128 %tmp.130 %tmp.129;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_27_78_4_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_4_91_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_4_91_4_if_false:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 78 11 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_11_91_4_if_stmt:
+        %tmp.131 = lgetv %now.11;
+        symbol [ now %tmp.131 78 15 18 ];
+        %tmp.132 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.132 78 21 29 ];
+        %tmp.133 = 1;
+        %tmp.134 = agetv %tmp.132 %tmp.133;
+        %tmp.135 = lt %tmp.131 %tmp.134;
+        bf %tmp.135 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_11_91_4_if_else_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_11_91_4_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_34_82_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 79 5 ]
+        %tmp.136 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.136 79 20 28 ];
+        %tmp.137 = 1;
+        %tmp.138 = agetv %tmp.136 %tmp.137;
+        lputv %nextSunEvent.10 %tmp.138;
+        symbol [ nextSunEvent %nextSunEvent.10 79 5 17 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_34_82_4_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_11_91_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_11_91_4_if_else_false:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_82_11_91_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 83 5 ]
+        %tmp.139 = self;
+        symbol [ getSunTimes2 %tmp.140 83 16 28 ];
+        %tmp.140 = getv function %tmp.139 :getSunTimes2;
+        %tmp.141 = lgetv %gLocationLat.6;
+        symbol [ gLocationLat %tmp.141 84 6 18 ];
+        %tmp.142 = as %tmp.141 { (!Null) };
+        %tmp.143 = lgetv %gLocationLng.7;
+        symbol [ gLocationLng %tmp.143 85 6 18 ];
+        %tmp.144 = null;
+        %tmp.145 = true;
+        %tmp.146 = invoke %tmp.139 %tmp.140(%tmp.142, %tmp.143, %tmp.144, %tmp.145);
+        lputv %sunTimes.8 %tmp.146;
+        symbol [ sunTimes %sunTimes.8 83 5 13 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 89 5 ]
+        %tmp.147 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.147 89 20 28 ];
+        %tmp.148 = 0;
+        %tmp.149 = agetv %tmp.147 %tmp.148;
+        lputv %nextSunEvent.10 %tmp.149;
+        symbol [ nextSunEvent %nextSunEvent.10 89 5 17 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 90 5 ]
+        %tmp.150 = lgetv %result.9;
+        symbol [ result %tmp.150 90 5 11 ];
+        %tmp.151 = true;
+        %tmp.152 = "isSunriseNext";
+        aputv %tmp.150 %tmp.152 %tmp.151;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_82_11_91_4_stop:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_78_11_91_4_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_73_4_91_4_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_27_92_3_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_3_92_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_71_3_92_3_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 95 3 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_3_113_3_if_stmt:
+        %tmp.153 = lgetv %sunriseSunsetToday.12;
+        symbol [ sunriseSunsetToday %tmp.153 95 8 26 ];
+        %tmp.154 = not %tmp.153;
+        bf %tmp.154 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_3_113_3_if_else_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_3_113_3_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_28_104_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 96 4 ]
+        %tmp.155 = "---";
+        lputv %value.1 %tmp.155;
+        symbol [ value %value.1 96 4 9 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 99 4 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_4_101_4_if_stmt:
+        %tmp.156 = lgetv %sunTimes.8;
+        symbol [ sunTimes %tmp.156 99 8 16 ];
+        %tmp.157 = 0;
+        %tmp.158 = agetv %tmp.156 %tmp.157;
+        %tmp.159 = null;
+        %tmp.160 = eq %tmp.158 %tmp.159;
+        bf %tmp.160 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_4_101_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_4_101_4_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_29_101_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 100 5 ]
+        %tmp.161 = lgetv %result.9;
+        symbol [ result %tmp.161 100 5 11 ];
+        %tmp.162 = true;
+        %tmp.163 = "isSunriseNext";
+        aputv %tmp.161 %tmp.163 %tmp.162;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_29_101_4_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_4_101_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_99_4_101_4_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_28_104_3_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_3_113_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_3_113_3_if_else_false:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_104_10_113_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 105 4 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_104_10_113_3_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_104_10_113_3_stop" ]
+        %hour.13 = local;
+        symbol [ hour %hour.13 105 8 12 ];
+        symbol [ Math %tmp.164 105 15 19 ];
+        %tmp.164 = getm $.Toybox.Math;
+        symbol [ floor %tmp.165 105 20 25 ];
+        %tmp.165 = getv function %tmp.164 :floor;
+        %tmp.166 = lgetv %nextSunEvent.10;
+        symbol [ nextSunEvent %tmp.166 105 26 38 ];
+        %tmp.167 = invoke %tmp.164 %tmp.165(%tmp.166);
+        symbol [ toLong %tmp.168 105 40 46 ];
+        %tmp.168 = getv function %tmp.167 :toLong;
+        %tmp.169 = invoke %tmp.167 %tmp.168();
+        %tmp.170 = 24;
+        %tmp.171 = mod %tmp.169 %tmp.170;
+        lputv %hour.13 %tmp.171;
+        symbol [ hour %hour.13 105 8 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 106 4 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_104_10_113_3_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_104_10_113_3_stop" ]
+        %min.14 = local;
+        symbol [ min %min.14 106 8 11 ];
+        symbol [ Math %tmp.172 106 14 18 ];
+        %tmp.172 = getm $.Toybox.Math;
+        symbol [ floor %tmp.173 106 19 24 ];
+        %tmp.173 = getv function %tmp.172 :floor;
+        %tmp.174 = lgetv %nextSunEvent.10;
+        symbol [ nextSunEvent %tmp.174 106 26 38 ];
+        symbol [ Math %tmp.175 106 41 45 ];
+        %tmp.175 = getm $.Toybox.Math;
+        symbol [ floor %tmp.176 106 46 51 ];
+        %tmp.176 = getv function %tmp.175 :floor;
+        %tmp.177 = lgetv %nextSunEvent.10;
+        symbol [ nextSunEvent %tmp.177 106 52 64 ];
+        %tmp.178 = invoke %tmp.175 %tmp.176(%tmp.177);
+        %tmp.179 = sub %tmp.174 %tmp.178;
+        %tmp.180 = 60;
+        %tmp.181 = mul %tmp.179 %tmp.180;
+        %tmp.182 = invoke %tmp.172 %tmp.173(%tmp.181);
+        lputv %min.14 %tmp.182;
+        symbol [ min %min.14 106 8 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 107 4 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_4_111_4_if_stmt:
+        %tmp.183 = lgetv %min.14;
+        symbol [ min %tmp.183 107 8 11 ];
+        %tmp.184 = 10;
+        %tmp.185 = lt %tmp.183 %tmp.184;
+        bf %tmp.185 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_4_111_4_if_else_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_4_111_4_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_18_109_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 108 5 ]
+        %tmp.186 = "0";
+        %tmp.187 = lgetv %min.14;
+        symbol [ min %tmp.187 108 17 20 ];
+        symbol [ toString %tmp.188 108 21 29 ];
+        %tmp.188 = getv function %tmp.187 :toString;
+        %tmp.189 = invoke %tmp.187 %tmp.188();
+        symbol [ substring %tmp.190 108 32 41 ];
+        %tmp.190 = getv function %tmp.189 :substring;
+        %tmp.191 = 0;
+        %tmp.192 = 1;
+        %tmp.193 = invoke %tmp.189 %tmp.190(%tmp.191, %tmp.192);
+        %tmp.194 = add %tmp.186 %tmp.193;
+        lputv %min.14 %tmp.194;
+        symbol [ min %min.14 108 5 8 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_18_109_4_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_4_111_4_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_4_111_4_if_else_false:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_109_11_111_4_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 110 5 ]
+        %tmp.195 = lgetv %min.14;
+        symbol [ min %tmp.195 110 11 14 ];
+        symbol [ toString %tmp.196 110 15 23 ];
+        %tmp.196 = getv function %tmp.195 :toString;
+        %tmp.197 = invoke %tmp.195 %tmp.196();
+        symbol [ substring %tmp.198 110 26 35 ];
+        %tmp.198 = getv function %tmp.197 :substring;
+        %tmp.199 = 0;
+        %tmp.200 = 2;
+        %tmp.201 = invoke %tmp.197 %tmp.198(%tmp.199, %tmp.200);
+        lputv %min.14 %tmp.201;
+        symbol [ min %min.14 110 5 8 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_109_11_111_4_stop:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_107_4_111_4_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 112 4 ]
+        %tmp.202 = lgetv %hour.13;
+        symbol [ hour %tmp.202 112 12 16 ];
+        %tmp.203 = ":";
+        %tmp.204 = add %tmp.202 %tmp.203;
+        %tmp.205 = lgetv %min.14;
+        symbol [ min %tmp.205 112 25 28 ];
+        %tmp.206 = add %tmp.204 %tmp.205;
+        lputv %value.1 %tmp.206;
+        symbol [ value %value.1 112 4 9 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_104_10_113_3_stop:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_95_3_113_3_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_28_116_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_2_118_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_2_118_2_if_else_false:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_116_9_118_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 117 3 ]
+        %tmp.207 = "gps?";
+        lputv %value.1 %tmp.207;
+        symbol [ value %value.1 117 3 8 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_116_9_118_2_stop:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_52_2_118_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 119 2 ]
+        %tmp.208 = lgetv %value.1;
+        symbol [ value %tmp.208 119 9 14 ];
+        ret %tmp.208;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_15_24_120_1_stop:
+    }
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 122; @symbol_functiondef = [getSunTimes2,122,18,30]; @symbol_param<0> = [lat,122,31,34]; @symbol_param<1> = [lng,122,36,39]; @symbol_param<2> = [tz,122,41,43]; @symbol_param<3> = [tomorrow,122,45,53]; @symbol_return<0> = [Array,122,58,63]; @symbol_return<1> = [Number,122,64,70]; ]
+    private
+    function getSunTimes2(lat, lng, tz, tomorrow) as Array<Number or Null> {
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 124 2 ]
+        %tmp.1 = lgetv %lat;
+        symbol [ lat %tmp.1 124 8 11 ];
+        symbol [ toDouble %tmp.2 124 12 20 ];
+        %tmp.2 = getv function %tmp.1 :toDouble;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %lat %tmp.3;
+        symbol [ lat %lat 124 2 5 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 125 2 ]
+        %tmp.4 = lgetv %lng;
+        symbol [ lng %tmp.4 125 8 11 ];
+        symbol [ toDouble %tmp.5 125 12 20 ];
+        %tmp.5 = getv function %tmp.4 :toDouble;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %lng %tmp.6;
+        symbol [ lng %lng 125 2 5 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 127 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 127 6 9 ];
+        symbol [ Time %tmp.7 127 12 16 ];
+        %tmp.7 = getm $.Toybox.Time;
+        symbol [ now %tmp.8 127 17 20 ];
+        %tmp.8 = getv function %tmp.7 :now;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %now.1 %tmp.9;
+        symbol [ now %now.1 127 6 9 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 128 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_2_130_2_if_stmt:
+        %tmp.10 = lgetv %tomorrow;
+        symbol [ tomorrow %tmp.10 128 6 14 ];
+        bf %tmp.10 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_2_130_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_2_130_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_16_130_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 129 3 ]
+        %tmp.11 = lgetv %now.1;
+        symbol [ now %tmp.11 129 9 12 ];
+        symbol [ add %tmp.12 129 13 16 ];
+        %tmp.12 = getv function %tmp.11 :add;
+        symbol [ Time %tmp.15 129 21 25 ];
+        %tmp.15 = getm $.Toybox.Time;
+        symbol [ Duration %tmp.16 129 26 34 ];
+        %tmp.16 = getv function ? %tmp.15 :Duration;
+        %tmp.17 = 24;
+        %tmp.18 = 60;
+        %tmp.19 = mul %tmp.17 %tmp.18;
+        %tmp.20 = 60;
+        %tmp.21 = mul %tmp.19 %tmp.20;
+        %tmp.13 = newc %tmp.16 (%tmp.21);
+        %tmp.22 = invoke %tmp.11 %tmp.12(%tmp.13);
+        lputv %now.1 %tmp.22;
+        symbol [ now %now.1 129 3 6 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_16_130_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_2_130_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_128_2_130_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 131 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %d.2 = local;
+        symbol [ d %d.2 131 6 7 ];
+        symbol [ Gregorian %tmp.24 131 10 19 ];
+        %tmp.24 = getv ? :Gregorian;
+        symbol [ info %tmp.25 131 20 24 ];
+        %tmp.25 = getv function %tmp.24 :info;
+        symbol [ Time %tmp.26 131 25 29 ];
+        %tmp.26 = getm $.Toybox.Time;
+        symbol [ now %tmp.27 131 30 33 ];
+        %tmp.27 = getv function %tmp.26 :now;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        symbol [ Time %tmp.29 131 37 41 ];
+        %tmp.29 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.30 131 42 54 ];
+        %tmp.30 = getv %tmp.29 :FORMAT_SHORT;
+        %tmp.31 = invoke %tmp.24 %tmp.25(%tmp.28, %tmp.30);
+        lputv %d.2 %tmp.31;
+        symbol [ d %d.2 131 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 132 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %rad.3 = local;
+        symbol [ rad %rad.3 132 6 9 ];
+        symbol [ Math %tmp.32 132 12 16 ];
+        %tmp.32 = getm $.Toybox.Math;
+        symbol [ PI %tmp.33 132 17 19 ];
+        %tmp.33 = getv %tmp.32 :PI;
+        %tmp.34 = 180.0d;
+        %tmp.35 = div %tmp.33 %tmp.34;
+        lputv %rad.3 %tmp.35;
+        symbol [ rad %rad.3 132 6 9 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 133 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %deg.4 = local;
+        symbol [ deg %deg.4 133 6 9 ];
+        %tmp.36 = 180.0d;
+        symbol [ Math %tmp.37 133 21 25 ];
+        %tmp.37 = getm $.Toybox.Math;
+        symbol [ PI %tmp.38 133 26 28 ];
+        %tmp.38 = getv %tmp.37 :PI;
+        %tmp.39 = div %tmp.36 %tmp.38;
+        lputv %deg.4 %tmp.39;
+        symbol [ deg %deg.4 133 6 9 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 136 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %a.5 = local;
+        symbol [ a %a.5 136 6 7 ];
+        symbol [ Math %tmp.40 136 10 14 ];
+        %tmp.40 = getm $.Toybox.Math;
+        symbol [ floor %tmp.41 136 15 20 ];
+        %tmp.41 = getv function %tmp.40 :floor;
+        %tmp.42 = 14;
+        %tmp.43 = lgetv %d.2;
+        symbol [ d %tmp.43 136 27 28 ];
+        symbol [ month %tmp.44 136 29 34 ];
+        %tmp.44 = getv %tmp.43 :month;
+        %tmp.45 = sub %tmp.42 %tmp.44;
+        %tmp.46 = 12;
+        %tmp.47 = div %tmp.45 %tmp.46;
+        %tmp.48 = invoke %tmp.40 %tmp.41(%tmp.47);
+        lputv %a.5 %tmp.48;
+        symbol [ a %a.5 136 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 137 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %y.6 = local;
+        symbol [ y %y.6 137 6 7 ];
+        %tmp.49 = lgetv %d.2;
+        symbol [ d %tmp.49 137 10 11 ];
+        symbol [ year %tmp.50 137 12 16 ];
+        %tmp.50 = getv %tmp.49 :year;
+        %tmp.51 = 4800;
+        %tmp.52 = add %tmp.50 %tmp.51;
+        %tmp.53 = lgetv %a.5;
+        symbol [ a %tmp.53 137 26 27 ];
+        %tmp.54 = sub %tmp.52 %tmp.53;
+        lputv %y.6 %tmp.54;
+        symbol [ y %y.6 137 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 138 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %m.7 = local;
+        symbol [ m %m.7 138 6 7 ];
+        %tmp.55 = lgetv %d.2;
+        symbol [ d %tmp.55 138 10 11 ];
+        symbol [ month %tmp.56 138 12 17 ];
+        %tmp.56 = getv %tmp.55 :month;
+        %tmp.57 = 12;
+        %tmp.58 = lgetv %a.5;
+        symbol [ a %tmp.58 138 25 26 ];
+        %tmp.59 = mul %tmp.57 %tmp.58;
+        %tmp.60 = add %tmp.56 %tmp.59;
+        %tmp.61 = 3;
+        %tmp.62 = sub %tmp.60 %tmp.61;
+        lputv %m.7 %tmp.62;
+        symbol [ m %m.7 138 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 139 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %jDate.8 = local;
+        symbol [ jDate %jDate.8 139 6 11 ];
+        %tmp.63 = lgetv %d.2;
+        symbol [ d %tmp.63 140 3 4 ];
+        symbol [ day %tmp.64 140 5 8 ];
+        %tmp.64 = getv %tmp.63 :day;
+        symbol [ Math %tmp.65 141 3 7 ];
+        %tmp.65 = getm $.Toybox.Math;
+        symbol [ floor %tmp.66 141 8 13 ];
+        %tmp.66 = getv function %tmp.65 :floor;
+        %tmp.67 = 153;
+        %tmp.68 = lgetv %m.7;
+        symbol [ m %tmp.68 141 21 22 ];
+        %tmp.69 = mul %tmp.67 %tmp.68;
+        %tmp.70 = 2;
+        %tmp.71 = add %tmp.69 %tmp.70;
+        %tmp.72 = 5;
+        %tmp.73 = div %tmp.71 %tmp.72;
+        %tmp.74 = invoke %tmp.65 %tmp.66(%tmp.73);
+        %tmp.75 = add %tmp.64 %tmp.74;
+        %tmp.76 = 365;
+        %tmp.77 = lgetv %y.6;
+        symbol [ y %tmp.77 142 9 10 ];
+        %tmp.78 = mul %tmp.76 %tmp.77;
+        %tmp.79 = add %tmp.75 %tmp.78;
+        symbol [ Math %tmp.80 143 3 7 ];
+        %tmp.80 = getm $.Toybox.Math;
+        symbol [ floor %tmp.81 143 8 13 ];
+        %tmp.81 = getv function %tmp.80 :floor;
+        %tmp.82 = lgetv %y.6;
+        symbol [ y %tmp.82 143 14 15 ];
+        %tmp.83 = 4;
+        %tmp.84 = div %tmp.82 %tmp.83;
+        %tmp.85 = invoke %tmp.80 %tmp.81(%tmp.84);
+        %tmp.86 = add %tmp.79 %tmp.85;
+        symbol [ Math %tmp.87 144 3 7 ];
+        %tmp.87 = getm $.Toybox.Math;
+        symbol [ floor %tmp.88 144 8 13 ];
+        %tmp.88 = getv function %tmp.87 :floor;
+        %tmp.89 = lgetv %y.6;
+        symbol [ y %tmp.89 144 14 15 ];
+        %tmp.90 = 100;
+        %tmp.91 = div %tmp.89 %tmp.90;
+        %tmp.92 = invoke %tmp.87 %tmp.88(%tmp.91);
+        %tmp.93 = sub %tmp.86 %tmp.92;
+        symbol [ Math %tmp.94 145 3 7 ];
+        %tmp.94 = getm $.Toybox.Math;
+        symbol [ floor %tmp.95 145 8 13 ];
+        %tmp.95 = getv function %tmp.94 :floor;
+        %tmp.96 = lgetv %y.6;
+        symbol [ y %tmp.96 145 14 15 ];
+        %tmp.97 = 400;
+        %tmp.98 = div %tmp.96 %tmp.97;
+        %tmp.99 = invoke %tmp.94 %tmp.95(%tmp.98);
+        %tmp.100 = add %tmp.93 %tmp.99;
+        %tmp.101 = 32045;
+        %tmp.102 = sub %tmp.100 %tmp.101;
+        lputv %jDate.8 %tmp.102;
+        symbol [ jDate %jDate.8 139 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 149 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %n.9 = local;
+        symbol [ n %n.9 149 6 7 ];
+        %tmp.103 = lgetv %jDate.8;
+        symbol [ jDate %tmp.103 149 10 15 ];
+        %tmp.104 = 2451545.0d;
+        %tmp.105 = sub %tmp.103 %tmp.104;
+        %tmp.106 = 0.0008d;
+        %tmp.107 = add %tmp.105 %tmp.106;
+        lputv %n.9 %tmp.107;
+        symbol [ n %n.9 149 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 153 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %jStar.10 = local;
+        symbol [ jStar %jStar.10 153 6 11 ];
+        %tmp.108 = lgetv %n.9;
+        symbol [ n %tmp.108 153 14 15 ];
+        %tmp.109 = lgetv %lng;
+        symbol [ lng %tmp.109 153 18 21 ];
+        %tmp.110 = 360.0d;
+        %tmp.111 = div %tmp.109 %tmp.110;
+        %tmp.112 = sub %tmp.108 %tmp.111;
+        lputv %jStar.10 %tmp.112;
+        symbol [ jStar %jStar.10 153 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 157 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %M.11 = local;
+        symbol [ M %M.11 157 6 7 ];
+        %tmp.113 = 357.5291d;
+        %tmp.114 = 0.98560028d;
+        %tmp.115 = lgetv %jStar.10;
+        symbol [ jStar %tmp.115 157 36 41 ];
+        %tmp.116 = mul %tmp.114 %tmp.115;
+        %tmp.117 = add %tmp.113 %tmp.116;
+        lputv %M.11 %tmp.117;
+        symbol [ M %M.11 157 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 158 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %MFloor.12 = local;
+        symbol [ MFloor %MFloor.12 158 6 12 ];
+        symbol [ Math %tmp.118 158 15 19 ];
+        %tmp.118 = getm $.Toybox.Math;
+        symbol [ floor %tmp.119 158 20 25 ];
+        %tmp.119 = getv function %tmp.118 :floor;
+        %tmp.120 = lgetv %M.11;
+        symbol [ M %tmp.120 158 26 27 ];
+        %tmp.121 = invoke %tmp.118 %tmp.119(%tmp.120);
+        lputv %MFloor.12 %tmp.121;
+        symbol [ MFloor %MFloor.12 158 6 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 159 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %MFrac.13 = local;
+        symbol [ MFrac %MFrac.13 159 6 11 ];
+        %tmp.122 = lgetv %M.11;
+        symbol [ M %tmp.122 159 14 15 ];
+        %tmp.123 = lgetv %MFloor.12;
+        symbol [ MFloor %tmp.123 159 18 24 ];
+        %tmp.124 = sub %tmp.122 %tmp.123;
+        lputv %MFrac.13 %tmp.124;
+        symbol [ MFrac %MFrac.13 159 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 160 2 ]
+        %tmp.125 = lgetv %MFloor.12;
+        symbol [ MFloor %tmp.125 160 6 12 ];
+        symbol [ toLong %tmp.126 160 13 19 ];
+        %tmp.126 = getv function %tmp.125 :toLong;
+        %tmp.127 = invoke %tmp.125 %tmp.126();
+        %tmp.128 = 360;
+        %tmp.129 = mod %tmp.127 %tmp.128;
+        lputv %M.11 %tmp.129;
+        symbol [ M %M.11 160 2 3 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 161 2 ]
+        %tmp.130 = lgetv %M.11;
+        symbol [ M %tmp.130 161 2 3 ];
+        %tmp.131 = lgetv %MFrac.13;
+        symbol [ MFrac %tmp.131 161 7 12 ];
+        %tmp.132 = add %tmp.130 %tmp.131;
+        lputv %M.11 %tmp.132;
+        symbol [ M %M.11 161 2 3 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 165 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %C.14 = local;
+        symbol [ C %C.14 165 6 7 ];
+        %tmp.133 = 1.9148d;
+        symbol [ Math %tmp.134 166 13 17 ];
+        %tmp.134 = getm $.Toybox.Math;
+        symbol [ sin %tmp.135 166 18 21 ];
+        %tmp.135 = getv function %tmp.134 :sin;
+        %tmp.136 = lgetv %M.11;
+        symbol [ M %tmp.136 166 22 23 ];
+        %tmp.137 = lgetv %rad.3;
+        symbol [ rad %tmp.137 166 26 29 ];
+        %tmp.138 = mul %tmp.136 %tmp.137;
+        %tmp.139 = invoke %tmp.134 %tmp.135(%tmp.138);
+        %tmp.140 = mul %tmp.133 %tmp.139;
+        %tmp.141 = 0.02d;
+        symbol [ Math %tmp.142 167 11 15 ];
+        %tmp.142 = getm $.Toybox.Math;
+        symbol [ sin %tmp.143 167 16 19 ];
+        %tmp.143 = getv function %tmp.142 :sin;
+        %tmp.144 = 2;
+        %tmp.145 = lgetv %M.11;
+        symbol [ M %tmp.145 167 24 25 ];
+        %tmp.146 = mul %tmp.144 %tmp.145;
+        %tmp.147 = lgetv %rad.3;
+        symbol [ rad %tmp.147 167 28 31 ];
+        %tmp.148 = mul %tmp.146 %tmp.147;
+        %tmp.149 = invoke %tmp.142 %tmp.143(%tmp.148);
+        %tmp.150 = mul %tmp.141 %tmp.149;
+        %tmp.151 = add %tmp.140 %tmp.150;
+        %tmp.152 = 0.0003d;
+        symbol [ Math %tmp.153 168 13 17 ];
+        %tmp.153 = getm $.Toybox.Math;
+        symbol [ sin %tmp.154 168 18 21 ];
+        %tmp.154 = getv function %tmp.153 :sin;
+        %tmp.155 = 3;
+        %tmp.156 = lgetv %M.11;
+        symbol [ M %tmp.156 168 26 27 ];
+        %tmp.157 = mul %tmp.155 %tmp.156;
+        %tmp.158 = lgetv %rad.3;
+        symbol [ rad %tmp.158 168 30 33 ];
+        %tmp.159 = mul %tmp.157 %tmp.158;
+        %tmp.160 = invoke %tmp.153 %tmp.154(%tmp.159);
+        %tmp.161 = mul %tmp.152 %tmp.160;
+        %tmp.162 = add %tmp.151 %tmp.161;
+        lputv %C.14 %tmp.162;
+        symbol [ C %C.14 165 6 7 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 172 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %lambda.15 = local;
+        symbol [ lambda %lambda.15 172 6 12 ];
+        %tmp.163 = lgetv %M.11;
+        symbol [ M %tmp.163 172 15 16 ];
+        %tmp.164 = lgetv %C.14;
+        symbol [ C %tmp.164 172 19 20 ];
+        %tmp.165 = add %tmp.163 %tmp.164;
+        %tmp.166 = 180;
+        %tmp.167 = add %tmp.165 %tmp.166;
+        %tmp.168 = 102.9372d;
+        %tmp.169 = add %tmp.167 %tmp.168;
+        lputv %lambda.15 %tmp.169;
+        symbol [ lambda %lambda.15 172 6 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 173 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %lambdaFloor.16 = local;
+        symbol [ lambdaFloor %lambdaFloor.16 173 6 17 ];
+        symbol [ Math %tmp.170 173 20 24 ];
+        %tmp.170 = getm $.Toybox.Math;
+        symbol [ floor %tmp.171 173 25 30 ];
+        %tmp.171 = getv function %tmp.170 :floor;
+        %tmp.172 = lgetv %lambda.15;
+        symbol [ lambda %tmp.172 173 31 37 ];
+        %tmp.173 = invoke %tmp.170 %tmp.171(%tmp.172);
+        lputv %lambdaFloor.16 %tmp.173;
+        symbol [ lambdaFloor %lambdaFloor.16 173 6 17 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 174 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %lambdaFrac.17 = local;
+        symbol [ lambdaFrac %lambdaFrac.17 174 6 16 ];
+        %tmp.174 = lgetv %lambda.15;
+        symbol [ lambda %tmp.174 174 19 25 ];
+        %tmp.175 = lgetv %lambdaFloor.16;
+        symbol [ lambdaFloor %tmp.175 174 28 39 ];
+        %tmp.176 = sub %tmp.174 %tmp.175;
+        lputv %lambdaFrac.17 %tmp.176;
+        symbol [ lambdaFrac %lambdaFrac.17 174 6 16 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 175 2 ]
+        %tmp.177 = lgetv %lambdaFloor.16;
+        symbol [ lambdaFloor %tmp.177 175 11 22 ];
+        symbol [ toLong %tmp.178 175 23 29 ];
+        %tmp.178 = getv function %tmp.177 :toLong;
+        %tmp.179 = invoke %tmp.177 %tmp.178();
+        %tmp.180 = 360;
+        %tmp.181 = mod %tmp.179 %tmp.180;
+        lputv %lambda.15 %tmp.181;
+        symbol [ lambda %lambda.15 175 2 8 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 176 2 ]
+        %tmp.182 = lgetv %lambda.15;
+        symbol [ lambda %tmp.182 176 2 8 ];
+        %tmp.183 = lgetv %lambdaFrac.17;
+        symbol [ lambdaFrac %tmp.183 176 12 22 ];
+        %tmp.184 = add %tmp.182 %tmp.183;
+        lputv %lambda.15 %tmp.184;
+        symbol [ lambda %lambda.15 176 2 8 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 180 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %jTransit.18 = local;
+        symbol [ jTransit %jTransit.18 180 6 14 ];
+        %tmp.185 = 2451545.5d;
+        %tmp.186 = lgetv %jStar.10;
+        symbol [ jStar %tmp.186 182 3 8 ];
+        %tmp.187 = add %tmp.185 %tmp.186;
+        %tmp.188 = 0.0053d;
+        symbol [ Math %tmp.189 183 13 17 ];
+        %tmp.189 = getm $.Toybox.Math;
+        symbol [ sin %tmp.190 183 18 21 ];
+        %tmp.190 = getv function %tmp.189 :sin;
+        %tmp.191 = lgetv %M.11;
+        symbol [ M %tmp.191 183 22 23 ];
+        %tmp.192 = lgetv %rad.3;
+        symbol [ rad %tmp.192 183 26 29 ];
+        %tmp.193 = mul %tmp.191 %tmp.192;
+        %tmp.194 = invoke %tmp.189 %tmp.190(%tmp.193);
+        %tmp.195 = mul %tmp.188 %tmp.194;
+        %tmp.196 = add %tmp.187 %tmp.195;
+        %tmp.197 = 0.0069d;
+        symbol [ Math %tmp.198 184 13 17 ];
+        %tmp.198 = getm $.Toybox.Math;
+        symbol [ sin %tmp.199 184 18 21 ];
+        %tmp.199 = getv function %tmp.198 :sin;
+        %tmp.200 = 2;
+        %tmp.201 = lgetv %lambda.15;
+        symbol [ lambda %tmp.201 184 26 32 ];
+        %tmp.202 = mul %tmp.200 %tmp.201;
+        %tmp.203 = lgetv %rad.3;
+        symbol [ rad %tmp.203 184 35 38 ];
+        %tmp.204 = mul %tmp.202 %tmp.203;
+        %tmp.205 = invoke %tmp.198 %tmp.199(%tmp.204);
+        %tmp.206 = mul %tmp.197 %tmp.205;
+        %tmp.207 = sub %tmp.196 %tmp.206;
+        lputv %jTransit.18 %tmp.207;
+        symbol [ jTransit %jTransit.18 180 6 14 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 188 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %delta.19 = local;
+        symbol [ delta %delta.19 188 6 11 ];
+        symbol [ Math %tmp.208 188 14 18 ];
+        %tmp.208 = getm $.Toybox.Math;
+        symbol [ asin %tmp.209 188 19 23 ];
+        %tmp.209 = getv function %tmp.208 :asin;
+        symbol [ Math %tmp.210 188 24 28 ];
+        %tmp.210 = getm $.Toybox.Math;
+        symbol [ sin %tmp.211 188 29 32 ];
+        %tmp.211 = getv function %tmp.210 :sin;
+        %tmp.212 = lgetv %lambda.15;
+        symbol [ lambda %tmp.212 188 33 39 ];
+        %tmp.213 = lgetv %rad.3;
+        symbol [ rad %tmp.213 188 42 45 ];
+        %tmp.214 = mul %tmp.212 %tmp.213;
+        %tmp.215 = invoke %tmp.210 %tmp.211(%tmp.214);
+        symbol [ Math %tmp.216 188 49 53 ];
+        %tmp.216 = getm $.Toybox.Math;
+        symbol [ sin %tmp.217 188 54 57 ];
+        %tmp.217 = getv function %tmp.216 :sin;
+        %tmp.218 = 23.44d;
+        %tmp.219 = lgetv %rad.3;
+        symbol [ rad %tmp.219 188 67 70 ];
+        %tmp.220 = mul %tmp.218 %tmp.219;
+        %tmp.221 = invoke %tmp.216 %tmp.217(%tmp.220);
+        %tmp.222 = mul %tmp.215 %tmp.221;
+        %tmp.223 = invoke %tmp.208 %tmp.209(%tmp.222);
+        lputv %delta.19 %tmp.223;
+        symbol [ delta %delta.19 188 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 192 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %cosOmega.20 = local;
+        symbol [ cosOmega %cosOmega.20 192 6 14 ];
+        symbol [ Math %tmp.224 193 4 8 ];
+        %tmp.224 = getm $.Toybox.Math;
+        symbol [ sin %tmp.225 193 9 12 ];
+        %tmp.225 = getv function %tmp.224 :sin;
+        %tmp.226 = -0.83d;
+        %tmp.227 = lgetv %rad.3;
+        symbol [ rad %tmp.227 193 22 25 ];
+        %tmp.228 = mul %tmp.226 %tmp.227;
+        %tmp.229 = invoke %tmp.224 %tmp.225(%tmp.228);
+        symbol [ Math %tmp.230 193 29 33 ];
+        %tmp.230 = getm $.Toybox.Math;
+        symbol [ sin %tmp.231 193 34 37 ];
+        %tmp.231 = getv function %tmp.230 :sin;
+        %tmp.232 = lgetv %lat;
+        symbol [ lat %tmp.232 193 38 41 ];
+        %tmp.233 = lgetv %rad.3;
+        symbol [ rad %tmp.233 193 44 47 ];
+        %tmp.234 = mul %tmp.232 %tmp.233;
+        %tmp.235 = invoke %tmp.230 %tmp.231(%tmp.234);
+        symbol [ Math %tmp.236 193 51 55 ];
+        %tmp.236 = getm $.Toybox.Math;
+        symbol [ sin %tmp.237 193 56 59 ];
+        %tmp.237 = getv function %tmp.236 :sin;
+        %tmp.238 = lgetv %delta.19;
+        symbol [ delta %tmp.238 193 60 65 ];
+        %tmp.239 = invoke %tmp.236 %tmp.237(%tmp.238);
+        %tmp.240 = mul %tmp.235 %tmp.239;
+        %tmp.241 = sub %tmp.229 %tmp.240;
+        symbol [ Math %tmp.242 194 4 8 ];
+        %tmp.242 = getm $.Toybox.Math;
+        symbol [ cos %tmp.243 194 9 12 ];
+        %tmp.243 = getv function %tmp.242 :cos;
+        %tmp.244 = lgetv %lat;
+        symbol [ lat %tmp.244 194 13 16 ];
+        %tmp.245 = lgetv %rad.3;
+        symbol [ rad %tmp.245 194 19 22 ];
+        %tmp.246 = mul %tmp.244 %tmp.245;
+        %tmp.247 = invoke %tmp.242 %tmp.243(%tmp.246);
+        symbol [ Math %tmp.248 194 26 30 ];
+        %tmp.248 = getm $.Toybox.Math;
+        symbol [ cos %tmp.249 194 31 34 ];
+        %tmp.249 = getv function %tmp.248 :cos;
+        %tmp.250 = lgetv %delta.19;
+        symbol [ delta %tmp.250 194 35 40 ];
+        %tmp.251 = invoke %tmp.248 %tmp.249(%tmp.250);
+        %tmp.252 = mul %tmp.247 %tmp.251;
+        %tmp.253 = div %tmp.241 %tmp.252;
+        lputv %cosOmega.20 %tmp.253;
+        symbol [ cosOmega %cosOmega.20 192 6 14 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 198 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_2_200_2_if_stmt:
+        %tmp.254 = lgetv %cosOmega.20;
+        symbol [ cosOmega %tmp.254 198 6 14 ];
+        %tmp.255 = 1;
+        %tmp.256 = gt %tmp.254 %tmp.255;
+        bf %tmp.256 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_2_200_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_2_200_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_20_200_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 199 3 ]
+        %tmp.257 = newa 2;
+        %tmp.258 = null;
+        %tmp.259 = dup %tmp.257;
+        %tmp.260 = aputv %tmp.259 0 %tmp.258;
+        %tmp.261 = -1;
+        %tmp.262 = dup %tmp.260;
+        %tmp.263 = aputv %tmp.262 1 %tmp.261;
+        ret %tmp.263;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_20_200_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_2_200_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_198_2_200_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 203 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_2_205_2_if_stmt:
+        %tmp.264 = lgetv %cosOmega.20;
+        symbol [ cosOmega %tmp.264 203 6 14 ];
+        %tmp.265 = -1;
+        %tmp.266 = lt %tmp.264 %tmp.265;
+        bf %tmp.266 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_2_205_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_2_205_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_21_205_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 204 3 ]
+        %tmp.267 = newa 2;
+        %tmp.268 = -1;
+        %tmp.269 = dup %tmp.267;
+        %tmp.270 = aputv %tmp.269 0 %tmp.268;
+        %tmp.271 = null;
+        %tmp.272 = dup %tmp.270;
+        %tmp.273 = aputv %tmp.272 1 %tmp.271;
+        ret %tmp.273;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_21_205_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_2_205_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_203_2_205_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 208 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %omega.21 = local;
+        symbol [ omega %omega.21 208 6 11 ];
+        symbol [ Math %tmp.274 208 14 18 ];
+        %tmp.274 = getm $.Toybox.Math;
+        symbol [ acos %tmp.275 208 19 23 ];
+        %tmp.275 = getv function %tmp.274 :acos;
+        %tmp.276 = lgetv %cosOmega.20;
+        symbol [ cosOmega %tmp.276 208 24 32 ];
+        %tmp.277 = invoke %tmp.274 %tmp.275(%tmp.276);
+        %tmp.278 = lgetv %deg.4;
+        symbol [ deg %tmp.278 208 36 39 ];
+        %tmp.279 = mul %tmp.277 %tmp.278;
+        lputv %omega.21 %tmp.279;
+        symbol [ omega %omega.21 208 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 209 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %jSet.22 = local;
+        symbol [ jSet %jSet.22 209 6 10 ];
+        %tmp.280 = lgetv %jTransit.18;
+        symbol [ jTransit %tmp.280 209 13 21 ];
+        %tmp.281 = lgetv %omega.21;
+        symbol [ omega %tmp.281 209 24 29 ];
+        %tmp.282 = 360.0;
+        %tmp.283 = div %tmp.281 %tmp.282;
+        %tmp.284 = add %tmp.280 %tmp.283;
+        lputv %jSet.22 %tmp.284;
+        symbol [ jSet %jSet.22 209 6 10 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 210 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %jRise.23 = local;
+        symbol [ jRise %jRise.23 210 6 11 ];
+        %tmp.285 = lgetv %jTransit.18;
+        symbol [ jTransit %tmp.285 210 14 22 ];
+        %tmp.286 = lgetv %omega.21;
+        symbol [ omega %tmp.286 210 25 30 ];
+        %tmp.287 = 360.0;
+        %tmp.288 = div %tmp.286 %tmp.287;
+        %tmp.289 = sub %tmp.285 %tmp.288;
+        lputv %jRise.23 %tmp.289;
+        symbol [ jRise %jRise.23 210 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 211 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %deltaJSet.24 = local;
+        symbol [ deltaJSet %deltaJSet.24 211 6 15 ];
+        %tmp.290 = lgetv %jSet.22;
+        symbol [ jSet %tmp.290 211 18 22 ];
+        %tmp.291 = lgetv %jDate.8;
+        symbol [ jDate %tmp.291 211 25 30 ];
+        %tmp.292 = sub %tmp.290 %tmp.291;
+        lputv %deltaJSet.24 %tmp.292;
+        symbol [ deltaJSet %deltaJSet.24 211 6 15 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 212 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %deltaJRise.25 = local;
+        symbol [ deltaJRise %deltaJRise.25 212 6 16 ];
+        %tmp.293 = lgetv %jRise.23;
+        symbol [ jRise %tmp.293 212 19 24 ];
+        %tmp.294 = lgetv %jDate.8;
+        symbol [ jDate %tmp.294 212 27 32 ];
+        %tmp.295 = sub %tmp.293 %tmp.294;
+        lputv %deltaJRise.25 %tmp.295;
+        symbol [ deltaJRise %deltaJRise.25 212 6 16 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 214 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop" ]
+        %tzOffset.26 = local;
+        symbol [ tzOffset %tzOffset.26 214 6 14 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_begin:
+        %tmp.296 = lgetv %tz;
+        symbol [ tz %tmp.296 215 3 5 ];
+        %tmp.297 = null;
+        %tmp.298 = eq %tmp.296 %tmp.297;
+        bf %tmp.298 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_true:
+        symbol [ System %tmp.299 215 16 22 ];
+        %tmp.299 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.300 215 23 35 ];
+        %tmp.300 = getv function %tmp.299 :getClockTime;
+        %tmp.301 = invoke %tmp.299 %tmp.300();
+        symbol [ timeZoneOffset %tmp.302 215 38 52 ];
+        %tmp.302 = getv %tmp.301 :timeZoneOffset;
+        %tmp.303 = 3600;
+        %tmp.304 = div %tmp.302 %tmp.303;
+        push %tmp.304;
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_false:
+        %tmp.305 = lgetv %tz;
+        symbol [ tz %tmp.305 215 62 64 ];
+        %tmp.306 = as %tmp.305 { (!Null) };
+        push %tmp.306;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_end:
+        %tmp.307 = phi [%tmp.298 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_begin] [%tmp.304 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_true] [%tmp.306 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_false] [%tmp.307 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_215_3_215_62_end];
+        lputv %tzOffset.26 %tmp.307;
+        symbol [ tzOffset %tzOffset.26 214 6 14 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 216 2 ]
+        %tmp.308 = newa 2;
+        %tmp.309 = lgetv %deltaJRise.25;
+        symbol [ deltaJRise %tmp.309 217 19 29 ];
+        %tmp.310 = 24;
+        %tmp.311 = mul %tmp.309 %tmp.310;
+        %tmp.312 = lgetv %tzOffset.26;
+        symbol [ tzOffset %tmp.312 217 37 45 ];
+        %tmp.313 = add %tmp.311 %tmp.312;
+        %tmp.314 = dup %tmp.308;
+        %tmp.315 = aputv %tmp.314 0 %tmp.313;
+        %tmp.316 = lgetv %deltaJSet.24;
+        symbol [ deltaJSet %tmp.316 218 18 27 ];
+        %tmp.317 = 24;
+        %tmp.318 = mul %tmp.316 %tmp.317;
+        %tmp.319 = lgetv %tzOffset.26;
+        symbol [ tzOffset %tmp.319 218 35 43 ];
+        %tmp.320 = add %tmp.318 %tmp.319;
+        %tmp.321 = dup %tmp.315;
+        %tmp.322 = aputv %tmp.321 1 %tmp.320;
+        ret %tmp.322;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_122_73_220_1_stop:
+    }
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 222; @symbol_functiondef = [getPressure,222,10,21]; ]
+    function getPressure() {
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_222_24_236_1_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 223 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_222_24_236_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_222_24_236_1_stop" ]
+        %pressure.1 = local;
+        symbol [ pressure %pressure.1 223 6 14 ];
+        %tmp.1 = 0.0;
+        lputv %pressure.1 %tmp.1;
+        symbol [ pressure %pressure.1 223 6 14 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 224 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_222_24_236_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_222_24_236_1_stop" ]
+        %sample.2 = local;
+        symbol [ sample %sample.2 224 6 12 ];
+        %tmp.2 = null;
+        lputv %sample.2 %tmp.2;
+        symbol [ sample %sample.2 224 6 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 226 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_226_2_234_2_if_stmt:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_227_3_228_29_begin:
+        symbol [ Toybox %tmp.4 227 3 9 ];
+        %tmp.4 = getv ? :Toybox;
+        %tmp.6 = const :SensorHistory;
+        symbol [ SensorHistory %tmp.6 227 15 28 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_226_2_234_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_228_3_228_29_true:
+        symbol [ Toybox %tmp.9 228 3 9 ];
+        %tmp.9 = getv ? :Toybox;
+        %tmp.10 = as %tmp.9 { (interface { var SensorHistory; }) };
+        symbol [ SensorHistory %tmp.11 228 10 23 ];
+        %tmp.11 = getv %tmp.10 :SensorHistory;
+        %tmp.13 = const :getPressureHistory;
+        symbol [ getPressureHistory %tmp.13 228 29 47 const ];
+        %tmp.14 = canhazplz %tmp.11 %tmp.13;
+        push %tmp.14;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_228_3_228_29_end:
+        %tmp.15 = phi [%tmp.7 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_227_3_228_29_begin] [%tmp.14 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_228_3_228_29_true] [%tmp.15 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_228_3_228_29_end];
+        bf %tmp.15 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_226_2_234_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_226_2_234_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_229_4_234_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 230 3 ]
+        symbol [ SensorHistory %tmp.17 230 12 25 ];
+        %tmp.17 = getv ? :SensorHistory;
+        symbol [ getPressureHistory %tmp.18 230 26 44 ];
+        %tmp.18 = getv function %tmp.17 :getPressureHistory;
+        %tmp.19 = null;
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        symbol [ next %tmp.21 230 51 55 ];
+        %tmp.21 = getv function %tmp.20 :next;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %sample.2 %tmp.22;
+        symbol [ sample %sample.2 230 3 9 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 231 3 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_3_233_3_if_stmt:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_7_231_40_begin:
+        %tmp.23 = lgetv %sample.2;
+        symbol [ sample %tmp.23 231 7 13 ];
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        bf %tmp.25 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_3_233_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_25_231_40_true:
+        %tmp.26 = lgetv %sample.2;
+        symbol [ sample %tmp.26 231 25 31 ];
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ data %tmp.28 231 32 36 ];
+        %tmp.28 = getv %tmp.27 :data;
+        %tmp.29 = null;
+        %tmp.30 = ne %tmp.28 %tmp.29;
+        push %tmp.30;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_25_231_40_end:
+        %tmp.31 = phi [%tmp.25 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_7_231_40_begin] [%tmp.30 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_25_231_40_true] [%tmp.31 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_25_231_40_end];
+        bf %tmp.31 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_3_233_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_3_233_3_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_46_233_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 232 4 ]
+        %tmp.32 = lgetv %sample.2;
+        symbol [ sample %tmp.32 232 15 21 ];
+        %tmp.33 = as %tmp.32 { (!Null) };
+        symbol [ data %tmp.34 232 22 26 ];
+        %tmp.34 = getv %tmp.33 :data;
+        lputv %pressure.1 %tmp.34;
+        symbol [ pressure %pressure.1 232 4 12 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_46_233_3_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_3_233_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_231_3_233_3_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_229_4_234_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_226_2_234_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_226_2_234_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 235 2 ]
+        %tmp.35 = lgetv %pressure.1;
+        symbol [ pressure %tmp.35 235 9 17 ];
+        ret %tmp.35;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_222_24_236_1_stop:
+    }
+    [ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 237; @symbol_functiondef = [getHR,237,10,15]; ]
+    function getHR() {
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 238 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_stop" ]
+        %value.1 = local;
+        symbol [ value %value.1 238 6 11 ];
+        %tmp.1 = 0;
+        lputv %value.1 %tmp.1;
+        symbol [ value %value.1 238 6 11 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 239 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_stop" ]
+        %activityInfo.2 = local;
+        symbol [ activityInfo %activityInfo.2 239 6 18 ];
+        symbol [ Activity %tmp.2 239 21 29 ];
+        %tmp.2 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.3 239 30 45 ];
+        %tmp.3 = getv function %tmp.2 :getActivityInfo;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %activityInfo.2 %tmp.4;
+        symbol [ activityInfo %activityInfo.2 239 6 18 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 240 2 ]
+        [ "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_start" "C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_stop" ]
+        %sample.3 = local;
+        symbol [ sample %sample.3 240 6 12 ];
+        %tmp.5 = lgetv %activityInfo.2;
+        symbol [ activityInfo %tmp.5 240 15 27 ];
+        symbol [ currentHeartRate %tmp.6 240 28 44 ];
+        %tmp.6 = getv %tmp.5 :currentHeartRate;
+        lputv %sample.3 %tmp.6;
+        symbol [ sample %sample.3 240 6 12 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 241 2 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_2_251_2_if_stmt:
+        %tmp.7 = lgetv %sample.3;
+        symbol [ sample %tmp.7 241 6 12 ];
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        bf %tmp.9 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_2_251_2_if_false;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_2_251_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_22_243_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 242 3 ]
+        %tmp.10 = lgetv %sample.3;
+        symbol [ sample %tmp.10 242 11 17 ];
+        %tmp.11 = as %tmp.10 { (!Null) };
+        lputv %value.1 %tmp.11;
+        symbol [ value %value.1 242 3 8 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_22_243_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_2_251_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_2_251_2_if_false:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 243 9 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_9_251_2_if_stmt:
+        symbol [ ActivityMonitor %tmp.12 243 13 28 ];
+        %tmp.12 = getm $.Toybox.ActivityMonitor;
+        %tmp.14 = const :getHeartRateHistory;
+        symbol [ getHeartRateHistory %tmp.14 243 34 53 const ];
+        %tmp.15 = canhazplz %tmp.12 %tmp.14;
+        bf %tmp.15 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_9_251_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_9_251_2_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_55_251_2_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 244 3 ]
+        symbol [ ActivityMonitor %tmp.16 244 12 27 ];
+        %tmp.16 = getm $.Toybox.ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.17 244 28 47 ];
+        %tmp.17 = getv function %tmp.16 :getHeartRateHistory;
+        %tmp.18 = 1;
+        %tmp.19 = true;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.19);
+        symbol [ next %tmp.21 244 57 61 ];
+        %tmp.21 = getv function %tmp.20 :next;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %sample.3 %tmp.22;
+        symbol [ sample %sample.3 244 3 9 ];
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 245 3 ]
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_245_3_250_3_if_stmt:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_246_4_247_40_begin:
+        %tmp.23 = lgetv %sample.3;
+        symbol [ sample %tmp.23 246 4 10 ];
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        bf %tmp.25 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_245_3_250_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_247_4_247_40_true:
+        %tmp.26 = lgetv %sample.3;
+        symbol [ sample %tmp.26 247 4 10 ];
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ heartRate %tmp.28 247 11 20 ];
+        %tmp.28 = getv %tmp.27 :heartRate;
+        symbol [ ActivityMonitor %tmp.29 247 24 39 ];
+        %tmp.29 = getm $.Toybox.ActivityMonitor;
+        symbol [ INVALID_HR_SAMPLE %tmp.30 247 40 57 ];
+        %tmp.30 = getv %tmp.29 :INVALID_HR_SAMPLE;
+        %tmp.31 = ne %tmp.28 %tmp.30;
+        push %tmp.31;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_247_4_247_40_end:
+        %tmp.32 = phi [%tmp.25 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_246_4_247_40_begin] [%tmp.31 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_247_4_247_40_true] [%tmp.32 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_247_4_247_40_end];
+        bf %tmp.32 @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_245_3_250_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_245_3_250_3_if_true:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_248_5_250_3_start:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 249 4 ]
+        %tmp.33 = lgetv %sample.3;
+        symbol [ sample %tmp.33 249 12 18 ];
+        %tmp.34 = as %tmp.33 { (!Null) };
+        symbol [ heartRate %tmp.35 249 19 28 ];
+        %tmp.35 = getv %tmp.34 :heartRate;
+        lputv %value.1 %tmp.35;
+        symbol [ value %value.1 249 4 9 ];
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_248_5_250_3_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_245_3_250_3_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_245_3_250_3_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_55_251_2_stop:
+        goto @C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_9_251_2_if_end;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_243_9_251_2_if_end:
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_241_2_251_2_if_end:
+[ "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc" 252 2 ]
+        %tmp.36 = lgetv %value.1;
+        symbol [ value %tmp.36 252 9 14 ];
+        ret %tmp.36;
+C_Users_mates_Desktop_Prog_Garmin_watchFace_source_helpers_mc_237_18_253_1_stop:
+    }
+}
+[ @file = "C:\Users\mates\Desktop\Prog\Garmin\watchFace\source\helpers.mc"; @line = 1; ]
+<init> {
+}

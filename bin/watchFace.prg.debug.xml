@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\mates\Desktop\Prog\Garmin\watchFace\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="1" lineNum="11" parent="globals/CostumeHelpers" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="2" lineNum="22" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="2" lineNum="23" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="3" lineNum="10" parent="globals/watchFaceView" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="4" lineNum="5" parent="globals/watchFaceApp" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="6" lineNum="234" parent="globals/Battery" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="7" lineNum="289" parent="globals/Lines" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="15" parent="globals/CostumeHelpers" pc="268435561" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="16" parent="globals/CostumeHelpers" pc="268435564" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="19" parent="globals/CostumeHelpers" pc="268435571" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="21" parent="globals/CostumeHelpers" pc="268435574" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="22" parent="globals/CostumeHelpers" pc="268435604" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="23" parent="globals/CostumeHelpers" pc="268435616" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="24" parent="globals/CostumeHelpers" pc="268435622" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="29" parent="globals/CostumeHelpers" pc="268435637" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="30" parent="globals/CostumeHelpers" pc="268435658" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="31" parent="globals/CostumeHelpers" pc="268435670" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="32" parent="globals/CostumeHelpers" pc="268435687" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="35" parent="globals/CostumeHelpers" pc="268435708" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="39" parent="globals/CostumeHelpers" pc="268435712" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="41" parent="globals/CostumeHelpers" pc="268435727" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="42" parent="globals/CostumeHelpers" pc="268435730" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="44" parent="globals/CostumeHelpers" pc="268435733" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="46" parent="globals/CostumeHelpers" pc="268435739" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="47" parent="globals/CostumeHelpers" pc="268435749" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="48" parent="globals/CostumeHelpers" pc="268435761" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="50" parent="globals/CostumeHelpers" pc="268435777" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="51" parent="globals/CostumeHelpers" pc="268435784" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="52" parent="globals/CostumeHelpers" pc="268435788" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="53" parent="globals/CostumeHelpers" pc="268435794" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="54" parent="globals/CostumeHelpers" pc="268435797" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="58" parent="globals/CostumeHelpers" pc="268435822" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="61" parent="globals/CostumeHelpers" pc="268435846" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="70" parent="globals/CostumeHelpers" pc="268435862" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="71" parent="globals/CostumeHelpers" pc="268435881" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="73" parent="globals/CostumeHelpers" pc="268435886" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="74" parent="globals/CostumeHelpers" pc="268435896" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="75" parent="globals/CostumeHelpers" pc="268435902" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="78" parent="globals/CostumeHelpers" pc="268435914" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="79" parent="globals/CostumeHelpers" pc="268435925" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="83" parent="globals/CostumeHelpers" pc="268435935" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="89" parent="globals/CostumeHelpers" pc="268435951" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="90" parent="globals/CostumeHelpers" pc="268435957" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="95" parent="globals/CostumeHelpers" pc="268435969" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="96" parent="globals/CostumeHelpers" pc="268435975" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="99" parent="globals/CostumeHelpers" pc="268435982" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="100" parent="globals/CostumeHelpers" pc="268435990" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="105" parent="globals/CostumeHelpers" pc="268436005" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="106" parent="globals/CostumeHelpers" pc="268436030" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="107" parent="globals/CostumeHelpers" pc="268436064" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="108" parent="globals/CostumeHelpers" pc="268436072" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="110" parent="globals/CostumeHelpers" pc="268436101" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="112" parent="globals/CostumeHelpers" pc="268436121" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="117" parent="globals/CostumeHelpers" pc="268436137" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="8" lineNum="119" parent="globals/CostumeHelpers" pc="268436144" symbol="getSunTimes"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="222" parent="globals/CostumeHelpers" pc="268436147" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="223" parent="globals/CostumeHelpers" pc="268436150" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="224" parent="globals/CostumeHelpers" pc="268436153" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="226" parent="globals/CostumeHelpers" pc="268436156" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="230" parent="globals/CostumeHelpers" pc="268436191" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="231" parent="globals/CostumeHelpers" pc="268436212" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="232" parent="globals/CostumeHelpers" pc="268436229" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="9" lineNum="235" parent="globals/CostumeHelpers" pc="268436244" symbol="getPressure"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="122" parent="globals/CostumeHelpers" pc="268436247" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="124" parent="globals/CostumeHelpers" pc="268436250" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="125" parent="globals/CostumeHelpers" pc="268436259" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="127" parent="globals/CostumeHelpers" pc="268436268" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="128" parent="globals/CostumeHelpers" pc="268436280" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="129" parent="globals/CostumeHelpers" pc="268436285" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="131" parent="globals/CostumeHelpers" pc="268436325" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="132" parent="globals/CostumeHelpers" pc="268436350" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="133" parent="globals/CostumeHelpers" pc="268436361" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="136" parent="globals/CostumeHelpers" pc="268436372" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="137" parent="globals/CostumeHelpers" pc="268436398" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="138" parent="globals/CostumeHelpers" pc="268436413" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="139" parent="globals/CostumeHelpers" pc="268436430" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="149" parent="globals/CostumeHelpers" pc="268436529" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="153" parent="globals/CostumeHelpers" pc="268436553" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="157" parent="globals/CostumeHelpers" pc="268436570" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="158" parent="globals/CostumeHelpers" pc="268436594" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="159" parent="globals/CostumeHelpers" pc="268436610" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="160" parent="globals/CostumeHelpers" pc="268436617" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="161" parent="globals/CostumeHelpers" pc="268436630" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="165" parent="globals/CostumeHelpers" pc="268436637" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="172" parent="globals/CostumeHelpers" pc="268436728" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="173" parent="globals/CostumeHelpers" pc="268436749" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="174" parent="globals/CostumeHelpers" pc="268436765" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="175" parent="globals/CostumeHelpers" pc="268436772" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="176" parent="globals/CostumeHelpers" pc="268436785" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="180" parent="globals/CostumeHelpers" pc="268436792" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="188" parent="globals/CostumeHelpers" pc="268436865" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="192" parent="globals/CostumeHelpers" pc="268436921" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="198" parent="globals/CostumeHelpers" pc="268437013" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="199" parent="globals/CostumeHelpers" pc="268437021" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="203" parent="globals/CostumeHelpers" pc="268437030" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="204" parent="globals/CostumeHelpers" pc="268437038" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="208" parent="globals/CostumeHelpers" pc="268437047" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="209" parent="globals/CostumeHelpers" pc="268437066" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="210" parent="globals/CostumeHelpers" pc="268437079" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="211" parent="globals/CostumeHelpers" pc="268437092" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="212" parent="globals/CostumeHelpers" pc="268437099" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="214" parent="globals/CostumeHelpers" pc="268437106" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="10" lineNum="216" parent="globals/CostumeHelpers" pc="268437138" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="11" lineNum="12" parent="globals/CostumeHelpers" pc="268437165" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="11" lineNum="13" parent="globals/CostumeHelpers" pc="268437167" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="237" parent="globals/CostumeHelpers" pc="268437180" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="238" parent="globals/CostumeHelpers" pc="268437183" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="239" parent="globals/CostumeHelpers" pc="268437186" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="240" parent="globals/CostumeHelpers" pc="268437198" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="241" parent="globals/CostumeHelpers" pc="268437206" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="242" parent="globals/CostumeHelpers" pc="268437212" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="243" parent="globals/CostumeHelpers" pc="268437219" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="244" parent="globals/CostumeHelpers" pc="268437234" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="245" parent="globals/CostumeHelpers" pc="268437257" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="249" parent="globals/CostumeHelpers" pc="268437277" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\helpers.mc" id="12" lineNum="252" parent="globals/CostumeHelpers" pc="268437292" symbol="getHR"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="54" parent="globals/watchFaceView" pc="268437295" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="55" parent="globals/watchFaceView" pc="268437298" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="56" parent="globals/watchFaceView" pc="268437322" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="57" parent="globals/watchFaceView" pc="268437330" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="58" parent="globals/watchFaceView" pc="268437347" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="59" parent="globals/watchFaceView" pc="268437376" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="60" parent="globals/watchFaceView" pc="268437394" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="61" parent="globals/watchFaceView" pc="268437397" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="62" parent="globals/watchFaceView" pc="268437409" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="63" parent="globals/watchFaceView" pc="268437443" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="64" parent="globals/watchFaceView" pc="268437473" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="65" parent="globals/watchFaceView" pc="268437503" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="14" lineNum="73" parent="globals/watchFaceView" pc="268437590" symbol="onShow"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="15" lineNum="47" parent="globals/watchFaceView" pc="268437636" symbol="onLayout"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="15" lineNum="48" parent="globals/watchFaceView" pc="268437638" symbol="onLayout"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="22" parent="globals/watchFaceView" pc="268437672" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="23" parent="globals/watchFaceView" pc="268437674" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="25" parent="globals/watchFaceView" pc="268437686" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="26" parent="globals/watchFaceView" pc="268437703" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="27" parent="globals/watchFaceView" pc="268437732" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="28" parent="globals/watchFaceView" pc="268437750" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="29" parent="globals/watchFaceView" pc="268437758" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="30" parent="globals/watchFaceView" pc="268437770" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="31" parent="globals/watchFaceView" pc="268437804" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="32" parent="globals/watchFaceView" pc="268437834" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="33" parent="globals/watchFaceView" pc="268437864" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="17" lineNum="41" parent="globals/watchFaceView" pc="268437951" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="79" parent="globals/watchFaceView" pc="268437997" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="80" parent="globals/watchFaceView" pc="268438000" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="81" parent="globals/watchFaceView" pc="268438012" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="84" parent="globals/watchFaceView" pc="268438042" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="85" parent="globals/watchFaceView" pc="268438066" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="86" parent="globals/watchFaceView" pc="268438094" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="87" parent="globals/watchFaceView" pc="268438098" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="88" parent="globals/watchFaceView" pc="268438122" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="91" parent="globals/watchFaceView" pc="268438149" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="92" parent="globals/watchFaceView" pc="268438173" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="93" parent="globals/watchFaceView" pc="268438200" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="95" parent="globals/watchFaceView" pc="268438204" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="96" parent="globals/watchFaceView" pc="268438228" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="99" parent="globals/watchFaceView" pc="268438255" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="100" parent="globals/watchFaceView" pc="268438279" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="101" parent="globals/watchFaceView" pc="268438300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="103" parent="globals/watchFaceView" pc="268438304" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="104" parent="globals/watchFaceView" pc="268438328" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="107" parent="globals/watchFaceView" pc="268438355" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="108" parent="globals/watchFaceView" pc="268438379" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="109" parent="globals/watchFaceView" pc="268438411" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="111" parent="globals/watchFaceView" pc="268438429" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="113" parent="globals/watchFaceView" pc="268438450" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="115" parent="globals/watchFaceView" pc="268438454" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="116" parent="globals/watchFaceView" pc="268438478" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="119" parent="globals/watchFaceView" pc="268438505" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="121" parent="globals/watchFaceView" pc="268438575" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="122" parent="globals/watchFaceView" pc="268438599" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="123" parent="globals/watchFaceView" pc="268438634" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="125" parent="globals/watchFaceView" pc="268438638" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="126" parent="globals/watchFaceView" pc="268438662" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="129" parent="globals/watchFaceView" pc="268438689" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="130" parent="globals/watchFaceView" pc="268438713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="131" parent="globals/watchFaceView" pc="268438740" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="133" parent="globals/watchFaceView" pc="268438744" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="134" parent="globals/watchFaceView" pc="268438768" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="137" parent="globals/watchFaceView" pc="268438795" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="138" parent="globals/watchFaceView" pc="268438819" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="139" parent="globals/watchFaceView" pc="268438847" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="141" parent="globals/watchFaceView" pc="268438851" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="142" parent="globals/watchFaceView" pc="268438875" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="145" parent="globals/watchFaceView" pc="268438902" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="146" parent="globals/watchFaceView" pc="268438926" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="147" parent="globals/watchFaceView" pc="268438959" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="149" parent="globals/watchFaceView" pc="268438963" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="150" parent="globals/watchFaceView" pc="268438987" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="153" parent="globals/watchFaceView" pc="268439014" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="154" parent="globals/watchFaceView" pc="268439038" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="155" parent="globals/watchFaceView" pc="268439065" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="157" parent="globals/watchFaceView" pc="268439069" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="158" parent="globals/watchFaceView" pc="268439093" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="161" parent="globals/watchFaceView" pc="268439120" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="162" parent="globals/watchFaceView" pc="268439144" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="163" parent="globals/watchFaceView" pc="268439172" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="165" parent="globals/watchFaceView" pc="268439176" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="166" parent="globals/watchFaceView" pc="268439200" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="169" parent="globals/watchFaceView" pc="268439227" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="170" parent="globals/watchFaceView" pc="268439251" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="171" parent="globals/watchFaceView" pc="268439279" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="173" parent="globals/watchFaceView" pc="268439283" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="174" parent="globals/watchFaceView" pc="268439307" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="178" parent="globals/watchFaceView" pc="268439334" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="179" parent="globals/watchFaceView" pc="268439358" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="180" parent="globals/watchFaceView" pc="268439376" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="182" parent="globals/watchFaceView" pc="268439408" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="184" parent="globals/watchFaceView" pc="268439443" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="186" parent="globals/watchFaceView" pc="268439447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="187" parent="globals/watchFaceView" pc="268439471" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="192" parent="globals/watchFaceView" pc="268439512" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="194" parent="globals/watchFaceView" pc="268439536" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="195" parent="globals/watchFaceView" pc="268439556" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="197" parent="globals/watchFaceView" pc="268439570" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="199" parent="globals/watchFaceView" pc="268439587" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="201" parent="globals/watchFaceView" pc="268439591" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="203" parent="globals/watchFaceView" pc="268439615" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="207" parent="globals/watchFaceView" pc="268439638" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="208" parent="globals/watchFaceView" pc="268439662" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="209" parent="globals/watchFaceView" pc="268439682" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="211" parent="globals/watchFaceView" pc="268439696" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="213" parent="globals/watchFaceView" pc="268439713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="215" parent="globals/watchFaceView" pc="268439717" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="216" parent="globals/watchFaceView" pc="268439741" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="19" lineNum="220" parent="globals/watchFaceView" pc="268439764" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="20" lineNum="11" parent="globals/watchFaceApp" pc="268439785" symbol="onStart"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="21" lineNum="17" parent="globals/watchFaceApp" pc="268439788" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="21" lineNum="18" parent="globals/watchFaceApp" pc="268439790" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="22" lineNum="6" parent="globals/watchFaceApp" pc="268439820" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="22" lineNum="7" parent="globals/watchFaceApp" pc="268439822" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceApp.mc" id="23" lineNum="14" parent="globals/watchFaceApp" pc="268439835" symbol="onStop"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="245" parent="globals/Battery" pc="268439838" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="246" parent="globals/Battery" pc="268439841" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="247" parent="globals/Battery" pc="268439862" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="248" parent="globals/Battery" pc="268439877" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="249" parent="globals/Battery" pc="268439898" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="251" parent="globals/Battery" pc="268439913" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="253" parent="globals/Battery" pc="268439924" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="255" parent="globals/Battery" pc="268439941" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="259" parent="globals/Battery" pc="268439985" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="260" parent="globals/Battery" pc="268439995" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="261" parent="globals/Battery" pc="268440006" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="24" lineNum="262" parent="globals/Battery" pc="268440018" symbol="refresh"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="25" lineNum="238" parent="globals/Battery" pc="268440032" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="25" lineNum="239" parent="globals/Battery" pc="268440034" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="25" lineNum="240" parent="globals/Battery" pc="268440050" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="25" lineNum="241" parent="globals/Battery" pc="268440062" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="25" lineNum="242" parent="globals/Battery" pc="268440070" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="266" parent="globals/Battery" pc="268440078" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="267" parent="globals/Battery" pc="268440080" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="270" parent="globals/Battery" pc="268440092" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="271" parent="globals/Battery" pc="268440109" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="273" parent="globals/Battery" pc="268440134" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="275" parent="globals/Battery" pc="268440146" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="276" parent="globals/Battery" pc="268440162" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="26" lineNum="285" parent="globals/Battery" pc="268440192" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="27" lineNum="290" parent="globals/Lines" pc="268440201" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="27" lineNum="291" parent="globals/Lines" pc="268440203" symbol="initialize"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="294" parent="globals/Lines" pc="268440220" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="295" parent="globals/Lines" pc="268440222" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="296" parent="globals/Lines" pc="268440234" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="297" parent="globals/Lines" pc="268440251" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="298" parent="globals/Lines" pc="268440269" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="300" parent="globals/Lines" pc="268440287" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="301" parent="globals/Lines" pc="268440307" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="302" parent="globals/Lines" pc="268440327" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="303" parent="globals/Lines" pc="268440347" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="304" parent="globals/Lines" pc="268440367" symbol="draw"/>
+        <entry filename="C:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\source\\watchFaceView.mc" id="28" lineNum="306" parent="globals/Lines" pc="268440389" symbol="draw"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="29" parent="globals/Rez/Layouts" pc="268440398" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="30" parent="globals/Rez/Layouts" pc="268440409" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="32" parent="globals/Rez/Layouts" pc="268440491" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="34" parent="globals/Rez/Layouts" pc="268440566" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="36" parent="globals/Rez/Layouts" pc="268440652" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="38" parent="globals/Rez/Layouts" pc="268440733" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="40" parent="globals/Rez/Layouts" pc="268440819" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="42" parent="globals/Rez/Layouts" pc="268440901" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="44" parent="globals/Rez/Layouts" pc="268440997" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="46" parent="globals/Rez/Layouts" pc="268441094" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="48" parent="globals/Rez/Layouts" pc="268441176" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="50" parent="globals/Rez/Layouts" pc="268441262" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="52" parent="globals/Rez/Layouts" pc="268441345" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="54" parent="globals/Rez/Layouts" pc="268441432" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="56" parent="globals/Rez/Layouts" pc="268441515" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="58" parent="globals/Rez/Layouts" pc="268441602" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="60" parent="globals/Rez/Layouts" pc="268441685" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="62" parent="globals/Rez/Layouts" pc="268441772" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="64" parent="globals/Rez/Layouts" pc="268441854" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="66" parent="globals/Rez/Layouts" pc="268441940" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="68" parent="globals/Rez/Layouts" pc="268442023" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="70" parent="globals/Rez/Layouts" pc="268442110" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="72" parent="globals/Rez/Layouts" pc="268442193" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="74" parent="globals/Rez/Layouts" pc="268442280" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="76" parent="globals/Rez/Layouts" pc="268442362" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="78" parent="globals/Rez/Layouts" pc="268442444" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="80" parent="globals/Rez/Layouts" pc="268442527" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="82" parent="globals/Rez/Layouts" pc="268442567" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\mates\\Desktop\\Prog\\Garmin\\watchFace\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="29" lineNum="84" parent="globals/Rez/Layouts" pc="268442607" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="18" symbol="sunTime"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="8388728" method="true" symbol="getActivityInfo"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+        <entry field="true" id="36" symbol="sIcon"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389801" method="true" symbol="getPressureHistory"/>
+        <entry field="true" id="26" symbol="bluetoothOff"/>
+        <entry field="true" id="16" symbol="bodyBattery"/>
+        <entry field="true" id="17" symbol="costumeHelpers"/>
+        <entry field="true" id="8388962" symbol="temperature"/>
+        <entry field="true" id="39" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="38" symbol="sunIcon"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="8388724" symbol="battery"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="10" object="true" symbol="watchFaceView"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8388964" symbol="pressure"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="9" object="true" symbol="watchFaceApp"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="7" object="true" symbol="CostumeHelpers"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="25" symbol="bluetoothIcon"/>
+        <entry id="8" object="true" symbol="Lines"/>
+        <entry field="true" id="8388923" method="true" symbol="today"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="33" symbol="levelsIcon"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="35" symbol="notificationIcon"/>
+        <entry field="true" id="21" symbol="batteryLevel"/>
+        <entry field="true" id="15" symbol="batteryColor"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="12" method="true" symbol="getPressure"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="13" method="true" symbol="getSunTimes"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="8390485" symbol="bluetooth"/>
+        <entry id="14" method="true" symbol="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="27" symbol="bodyBattIcon"/>
+        <entry field="true" id="32" symbol="heartRateIcon"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="6" object="true" symbol="Battery"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="24" symbol="alarm"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="22" method="true" symbol="refresh"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="8388939" symbol="day"/>
+        <entry field="true" id="34" symbol="notification"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry field="true" id="29" symbol="calorieIcon"/>
+        <entry field="true" id="37" symbol="stepsIcon"/>
+        <entry id="20" module="true" symbol="Layouts"/>
+        <entry field="true" id="19" symbol="weather"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="28" symbol="bodyPowerIcon"/>
+        <entry id="11" method="true" symbol="getHR"/>
+        <entry field="true" id="30" symbol="caloriesIcon"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="31" symbol="degIcon"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268436146" name="value" stackId="1" startPc="268435564"/>
+        <entry endPc="268436146" name="location" stackId="2" startPc="268435564"/>
+        <entry endPc="268435633" name="info" stackId="3" startPc="268435604"/>
+        <entry endPc="268435698" name="posInfo" stackId="4" startPc="268435658"/>
+        <entry endPc="268435721" name="ex" stackId="5" startPc="268435708"/>
+        <entry endPc="268436146" name="gLocationLat" stackId="6" startPc="268435564"/>
+        <entry endPc="268436146" name="gLocationLng" stackId="7" startPc="268435564"/>
+        <entry endPc="268436146" name="sunTimes" stackId="8" startPc="268435564"/>
+        <entry endPc="268436146" name="result" stackId="9" startPc="268435564"/>
+        <entry endPc="268436133" name="nextSunEvent" stackId="10" startPc="268435794"/>
+        <entry endPc="268436133" name="now" stackId="11" startPc="268435794"/>
+        <entry endPc="268436133" name="sunriseSunsetToday" stackId="12" startPc="268435794"/>
+        <entry endPc="268436133" name="hour" stackId="13" startPc="268436005"/>
+        <entry endPc="268436133" name="min" stackId="14" startPc="268436005"/>
+        <entry endPc="268436246" name="pressure" stackId="1" startPc="268436150"/>
+        <entry endPc="268436246" name="sample" stackId="2" startPc="268436150"/>
+        <entry arg="true" endPc="268437164" name="lat" stackId="1" startPc="268436247"/>
+        <entry arg="true" endPc="268437164" name="lng" stackId="2" startPc="268436247"/>
+        <entry arg="true" endPc="268437164" name="tz" stackId="3" startPc="268436247"/>
+        <entry arg="true" endPc="268437164" name="tomorrow" stackId="4" startPc="268436247"/>
+        <entry endPc="268437164" name="now" stackId="5" startPc="268436250"/>
+        <entry endPc="268437164" name="d" stackId="6" startPc="268436250"/>
+        <entry endPc="268437164" name="rad" stackId="7" startPc="268436250"/>
+        <entry endPc="268437164" name="deg" stackId="8" startPc="268436250"/>
+        <entry endPc="268437164" name="a" stackId="9" startPc="268436250"/>
+        <entry endPc="268437164" name="y" stackId="10" startPc="268436250"/>
+        <entry endPc="268437164" name="m" stackId="11" startPc="268436250"/>
+        <entry endPc="268437164" name="jDate" stackId="12" startPc="268436250"/>
+        <entry endPc="268437164" name="n" stackId="13" startPc="268436250"/>
+        <entry endPc="268437164" name="jStar" stackId="14" startPc="268436250"/>
+        <entry endPc="268437164" name="M" stackId="15" startPc="268436250"/>
+        <entry endPc="268437164" name="MFloor" stackId="16" startPc="268436250"/>
+        <entry endPc="268437164" name="MFrac" stackId="17" startPc="268436250"/>
+        <entry endPc="268437164" name="C" stackId="18" startPc="268436250"/>
+        <entry endPc="268437164" name="lambda" stackId="19" startPc="268436250"/>
+        <entry endPc="268437164" name="lambdaFloor" stackId="20" startPc="268436250"/>
+        <entry endPc="268437164" name="lambdaFrac" stackId="21" startPc="268436250"/>
+        <entry endPc="268437164" name="jTransit" stackId="22" startPc="268436250"/>
+        <entry endPc="268437164" name="delta" stackId="23" startPc="268436250"/>
+        <entry endPc="268437164" name="cosOmega" stackId="24" startPc="268436250"/>
+        <entry endPc="268437164" name="omega" stackId="25" startPc="268436250"/>
+        <entry endPc="268437164" name="jSet" stackId="26" startPc="268436250"/>
+        <entry endPc="268437164" name="jRise" stackId="27" startPc="268436250"/>
+        <entry endPc="268437164" name="deltaJSet" stackId="28" startPc="268436250"/>
+        <entry endPc="268437164" name="deltaJRise" stackId="29" startPc="268436250"/>
+        <entry endPc="268437164" name="tzOffset" stackId="30" startPc="268436250"/>
+        <entry endPc="268437294" name="value" stackId="1" startPc="268437183"/>
+        <entry endPc="268437294" name="activityInfo" stackId="2" startPc="268437183"/>
+        <entry endPc="268437294" name="sample" stackId="3" startPc="268437183"/>
+        <entry endPc="268437634" name="battery" stackId="1" startPc="268437298"/>
+        <entry arg="true" endPc="268437671" name="dc" stackId="1" startPc="268437636"/>
+        <entry arg="true" endPc="268439784" name="dc" stackId="1" startPc="268437997"/>
+        <entry endPc="268439783" name="info" stackId="2" startPc="268438000"/>
+        <entry endPc="268438087" name="bodyBatt" stackId="3" startPc="268438042"/>
+        <entry endPc="268438143" name="ex" stackId="4" startPc="268438094"/>
+        <entry endPc="268438136" name="bodyBatt" stackId="5" startPc="268438098"/>
+        <entry endPc="268438193" name="deg" stackId="6" startPc="268438149"/>
+        <entry endPc="268438249" name="ex" stackId="7" startPc="268438200"/>
+        <entry endPc="268438242" name="deg" stackId="8" startPc="268438204"/>
+        <entry endPc="268438293" name="calories" stackId="9" startPc="268438255"/>
+        <entry endPc="268438349" name="ex" stackId="10" startPc="268438300"/>
+        <entry endPc="268438342" name="calories" stackId="11" startPc="268438304"/>
+        <entry endPc="268438443" name="dayField" stackId="12" startPc="268438355"/>
+        <entry endPc="268438499" name="ex" stackId="13" startPc="268438450"/>
+        <entry endPc="268438492" name="day" stackId="14" startPc="268438454"/>
+        <entry endPc="268438627" name="min" stackId="15" startPc="268438505"/>
+        <entry endPc="268438627" name="time" stackId="16" startPc="268438505"/>
+        <entry endPc="268438683" name="ex" stackId="17" startPc="268438634"/>
+        <entry endPc="268438676" name="time" stackId="18" startPc="268438638"/>
+        <entry endPc="268438733" name="sun" stackId="19" startPc="268438689"/>
+        <entry endPc="268438789" name="ex" stackId="20" startPc="268438740"/>
+        <entry endPc="268438782" name="sun" stackId="21" startPc="268438744"/>
+        <entry endPc="268438840" name="levels" stackId="22" startPc="268438795"/>
+        <entry endPc="268438896" name="ex" stackId="23" startPc="268438847"/>
+        <entry endPc="268438889" name="levels" stackId="24" startPc="268438851"/>
+        <entry endPc="268438952" name="heartRate" stackId="25" startPc="268438902"/>
+        <entry endPc="268439008" name="ex" stackId="26" startPc="268438959"/>
+        <entry endPc="268439001" name="heartRate" stackId="27" startPc="268438963"/>
+        <entry endPc="268439058" name="bodyPower" stackId="28" startPc="268439014"/>
+        <entry endPc="268439114" name="ex" stackId="29" startPc="268439065"/>
+        <entry endPc="268439107" name="bodyPower" stackId="30" startPc="268439069"/>
+        <entry endPc="268439165" name="steps" stackId="31" startPc="268439120"/>
+        <entry endPc="268439221" name="ex" stackId="32" startPc="268439172"/>
+        <entry endPc="268439214" name="steps" stackId="33" startPc="268439176"/>
+        <entry endPc="268439272" name="calories" stackId="34" startPc="268439227"/>
+        <entry endPc="268439328" name="ex" stackId="35" startPc="268439279"/>
+        <entry endPc="268439321" name="calories" stackId="36" startPc="268439283"/>
+        <entry endPc="268439436" name="bluetoothIcon" stackId="37" startPc="268439334"/>
+        <entry endPc="268439506" name="ex" stackId="38" startPc="268439443"/>
+        <entry endPc="268439499" name="bluetoothIcon" stackId="39" startPc="268439447"/>
+        <entry endPc="268439580" name="notificationIcon" stackId="40" startPc="268439512"/>
+        <entry endPc="268439632" name="ex" stackId="41" startPc="268439587"/>
+        <entry endPc="268439625" name="notificationIcon" stackId="42" startPc="268439591"/>
+        <entry endPc="268439706" name="alarmIcon" stackId="43" startPc="268439638"/>
+        <entry endPc="268439758" name="ex" stackId="44" startPc="268439713"/>
+        <entry endPc="268439751" name="alarmIcon" stackId="45" startPc="268439717"/>
+        <entry endPc="268440030" name="a" stackId="1" startPc="268439841"/>
+        <entry arg="true" endPc="268440077" name="params" stackId="1" startPc="268440032"/>
+        <entry arg="true" endPc="268440200" name="dc" stackId="1" startPc="268440078"/>
+        <entry arg="true" endPc="268440219" name="params" stackId="1" startPc="268440201"/>
+        <entry arg="true" endPc="268440397" name="dc" stackId="1" startPc="268440220"/>
+        <entry arg="true" endPc="268442746" name="dc" stackId="1" startPc="268440398"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_sunIcon" stackId="2" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_sun" stackId="3" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_deg" stackId="4" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_degIcon" stackId="5" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_calories" stackId="6" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_caloriesIcon" stackId="7" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_day" stackId="8" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_time" stackId="9" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_levelsIcon" stackId="10" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_levels" stackId="11" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_heartRateIcon" stackId="12" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_heartRate" stackId="13" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_bodyPowerIcon" stackId="14" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_bodyPower" stackId="15" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_bodyBattIcon" stackId="16" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_bodyBatt" stackId="17" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_calorieIcon" stackId="18" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_calorie" stackId="19" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_stepsIcon" stackId="20" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_steps" stackId="21" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_sIcon" stackId="22" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_text_sa" stackId="23" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_bluetoothIcon" stackId="24" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_notificationIcon" stackId="25" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_bitmap_alarm" stackId="26" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_custom_drawable_Lines" stackId="27" startPc="268440409"/>
+        <entry endPc="268442746" name="rez_cmp_local_custom_drawable_Battery" stackId="28" startPc="268440409"/>
+    </localVars>
+    <deviceInfo deviceVersion="54c5482f11d914bff6bb8a569f46b55197d117d5" partNumber="006-B4536-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bluetooth"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bluetoothIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="calorieIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="caloriesIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="sIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bluetoothOff"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="stepsIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="degIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="alarm"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="notification"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bodyPowerIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartRateIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="levelsIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="sunIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bodyBattIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="notificationIcon"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/CostumeHelpers" offset="152" parentId="globals" symbolId="CostumeHelpers" type="class"/>
+        <dataEntry label="globals/watchFaceView" offset="232" parentId="globals" symbolId="watchFaceView" type="class"/>
+        <dataEntry label="globals/watchFaceApp" offset="420" parentId="globals" symbolId="watchFaceApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="491" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Battery" offset="544" parentId="globals" symbolId="Battery" type="class"/>
+        <dataEntry label="globals/Lines" offset="624" parentId="globals" symbolId="Lines" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="677" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="856" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="891" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="CostumeHelpers" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="watchFaceView" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435516" name="&lt;init&gt;" parent="watchFaceApp" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="Rez" startPc="268435517">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="Battery" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="Lines" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436146" name="getSunTimes" parent="CostumeHelpers" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436246" name="getPressure" parent="CostumeHelpers" startPc="268436147">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437164" name="&lt;globals/CostumeHelpers/&lt;&gt;getSunTimes2&gt;" parent="CostumeHelpers" startPc="268436247">
+            <param id="lat"/>
+            <param id="lng"/>
+            <param id="tz"/>
+            <param id="tomorrow"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437179" name="initialize" parent="CostumeHelpers" startPc="268437165">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437294" name="getHR" parent="CostumeHelpers" startPc="268437180">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="watchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437635" name="onShow" parent="watchFaceView" startPc="268437295">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437671" name="onLayout" parent="watchFaceView" startPc="268437636">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="watchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437996" name="initialize" parent="watchFaceView" startPc="268437672">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="watchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439784" name="onUpdate" parent="watchFaceView" startPc="268437997">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439787" name="onStart" parent="watchFaceApp" startPc="268439785">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439819" name="getInitialView" parent="watchFaceApp" startPc="268439788">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439834" name="initialize" parent="watchFaceApp" startPc="268439820">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439837" name="onStop" parent="watchFaceApp" startPc="268439835">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440031" name="refresh" parent="Battery" startPc="268439838">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440077" name="initialize" parent="Battery" startPc="268440032">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440200" name="draw" parent="Battery" startPc="268440078">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440219" name="initialize" parent="Lines" startPc="268440201">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440397" name="draw" parent="Lines" startPc="268440220">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442746" name="WatchFace" parent="Layouts" startPc="268440398">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
